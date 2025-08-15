@@ -1,0 +1,6 @@
+{
+  "name": "AI Test Platform",
+  "description": "An AI-powered platform to automatically scan web applications, generate test cases in various frameworks, and visualize test results.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

@@ -1,0 +1,56 @@
+CREATE TABLE `project` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(255) NOT NULL,
+  `baseUrl` VARCHAR(255) NOT NULL,
+  `createdAt` DATETIME NOT NULL
+);
+
+CREATE TABLE `page` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `url` VARCHAR(255) NOT NULL,
+  `requirements` TEXT,
+  `projectId` INT NOT NULL,
+  FOREIGN KEY (`projectId`) REFERENCES `project`(`id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `test` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `framework` VARCHAR(255) NOT NULL,
+  `script` TEXT NOT NULL,
+  `status` VARCHAR(50) NOT NULL,
+  `projectId` INT NOT NULL,
+  FOREIGN KEY (`projectId`) REFERENCES `project`(`id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `log` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `testId` INT NOT NULL,
+  `output` TEXT NOT NULL,
+  `executedAt` DATETIME NOT NULL,
+  `status` VARCHAR(50) NOT NULL,
+  FOREIGN KEY (`testId`) REFERENCES `test`(`id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `setting` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `projectId` INT,
+  `key` VARCHAR(255) NOT NULL,
+  `value` TEXT NOT NULL,
+  FOREIGN KEY (`projectId`) REFERENCES `project`(`id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `api_endpoint` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `method` VARCHAR(20) NOT NULL,
+  `url` VARCHAR(255) NOT NULL,
+  `group` VARCHAR(255),
+  `projectId` INT NOT NULL,
+  FOREIGN KEY (`projectId`) REFERENCES `project`(`id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `ai_model` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(255) NOT NULL,
+  `apiKey` VARCHAR(255) NOT NULL,
+  `isFallback` BOOLEAN NOT NULL DEFAULT FALSE
+);

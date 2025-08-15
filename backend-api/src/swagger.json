@@ -1,0 +1,14 @@
+{
+	"openapi": "3.0.0",
+	"info": {
+		"title": "AI Test Platform API",
+		"description": "API documentation for the AI Test Platform to manage projects, pages, tests, logs, settings, API endpoints, AI models, DOM scanning, and test generation.",
+		"version": "1.0.0"
+	},
+	"paths": {
+		// ...existing code...
+	},
+	"components": {
+		// ...existing code...
+	}
+}

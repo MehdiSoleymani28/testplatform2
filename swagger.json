@@ -1,0 +1,1213 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "AI Test Platform API",
+    "description": "API documentation for the AI Test Platform to manage projects, pages, tests, logs, settings, API endpoints, AI models, DOM scanning, and test generation.",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/projects": {
+      "get": {
+        "summary": "List all projects",
+        "description": "Returns a list of all projects with their associated pages, tests, and API endpoints (Phase 1.1).",
+        "responses": {
+          "200": {
+            "description": "List of projects",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Project" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new project",
+        "description": "Creates a new project with name and baseUrl (Phase 1.1).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreateProjectDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created project",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Project" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/projects/{id}": {
+      "get": {
+        "summary": "Get a project by ID",
+        "description": "Returns details of a specific project (Phase 1.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Project details",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Project" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update a project",
+        "description": "Updates a project's name or baseUrl (Phase 1.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/UpdateProjectDto" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated project",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Project" }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a project",
+        "description": "Deletes a project and its associated data (Phase 1.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "204": { "description": "Project deleted" }
+        }
+      }
+    },
+    "/pages": {
+      "get": {
+        "summary": "List all pages",
+        "description": "Returns a list of all pages with their associated project (Phase 1.1).",
+        "responses": {
+          "200": {
+            "description": "List of pages",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Page" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new page",
+        "description": "Creates a new page with URL and optional requirements (Phase 1.1).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreatePageDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created page",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Page" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pages/{id}": {
+      "get": {
+        "summary": "Get a page by ID",
+        "description": "Returns details of a specific page (Phase 1.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Page details",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Page" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update a page",
+        "description": "Updates a page's URL or requirements (Phase 1.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/UpdatePageDto" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated page",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Page" }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a page",
+        "description": "Deletes a page (Phase 1.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "204": { "description": "Page deleted" }
+        }
+      }
+    },
+    "/tests": {
+      "get": {
+        "summary": "List all tests",
+        "description": "Returns a list of all tests with their associated project (Phase 1.3, 2).",
+        "responses": {
+          "200": {
+            "description": "List of tests",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Test" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new test",
+        "description": "Creates a new test with framework and script (Phase 1.3).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreateTestDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created test",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Test" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/tests/{id}": {
+      "get": {
+        "summary": "Get a test by ID",
+        "description": "Returns details of a specific test (Phase 1.3).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Test details",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Test" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update a test",
+        "description": "Updates a test's framework, script, or status (Phase 1.3).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/UpdateTestDto" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated test",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Test" }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a test",
+        "description": "Deletes a test (Phase 1.3).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "204": { "description": "Test deleted" }
+        }
+      }
+    },
+    "/logs": {
+      "get": {
+        "summary": "List all logs",
+        "description": "Returns a list of all test execution logs (Phase 2.2).",
+        "responses": {
+          "200": {
+            "description": "List of logs",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Log" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new log",
+        "description": "Creates a new log for a test execution (Phase 2.2).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreateLogDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created log",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Log" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/logs/{id}": {
+      "get": {
+        "summary": "Get a log by ID",
+        "description": "Returns details of a specific log (Phase 2.2).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Log details",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Log" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update a log",
+        "description": "Updates a log's output or status (Phase 2.2).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/UpdateLogDto" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated log",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Log" }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a log",
+        "description": "Deletes a log (Phase 2.2).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "204": { "description": "Log deleted" }
+        }
+      }
+    },
+    "/settings": {
+      "get": {
+        "summary": "List all settings",
+        "description": "Returns a list of all settings, optionally filtered by projectId (Phase 2.3, 4).",
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "query",
+            "required": false,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of settings",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/Setting" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new setting",
+        "description": "Creates a new setting for global or project-specific configuration (Phase 2.3, 4).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreateSettingDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created setting",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Setting" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/settings/{id}": {
+      "get": {
+        "summary": "Get a setting by ID",
+        "description": "Returns details of a specific setting (Phase 2.3, 4).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Setting details",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Setting" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update a setting",
+        "description": "Updates a setting's key or value (Phase 2.3, 4).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/UpdateSettingDto" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated setting",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/Setting" }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete a setting",
+        "description": "Deletes a setting (Phase 2.3, 4).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "204": { "description": "Setting deleted" }
+        }
+      }
+    },
+    "/api-endpoints": {
+      "get": {
+        "summary": "List all API endpoints",
+        "description": "Returns a list of all API endpoints with their associated project (Phase 3.1).",
+        "responses": {
+          "200": {
+            "description": "List of API endpoints",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/ApiEndpoint" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new API endpoint",
+        "description": "Creates a new API endpoint with method, URL, and optional group (Phase 3.1).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreateApiEndpointDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created API endpoint",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiEndpoint" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api-endpoints/{id}": {
+      "get": {
+        "summary": "Get an API endpoint by ID",
+        "description": "Returns details of a specific API endpoint (Phase 3.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "API endpoint details",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiEndpoint" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update an API endpoint",
+        "description": "Updates an API endpoint's method, URL, or group (Phase 3.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/UpdateApiEndpointDto" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated API endpoint",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiEndpoint" }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete an API endpoint",
+        "description": "Deletes an API endpoint (Phase 3.1).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "204": { "description": "API endpoint deleted" }
+        }
+      }
+    },
+    "/ai-models": {
+      "get": {
+        "summary": "List all AI models",
+        "description": "Returns a list of all AI models for admins (Phase 4.2).",
+        "responses": {
+          "200": {
+            "description": "List of AI models",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": { "$ref": "#/components/schemas/AiModel" }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Create a new AI model",
+        "description": "Creates a new AI model with name and encrypted API key (Phase 4.2).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreateAiModelDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created AI model",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/AiModel" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ai-models/{id}": {
+      "get": {
+        "summary": "Get an AI model by ID",
+        "description": "Returns details of a specific AI model (Phase 4.2).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "AI model details",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/AiModel" }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "summary": "Update an AI model",
+        "description": "Updates an AI model's name, API key, or fallback status (Phase 4.2).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/UpdateAiModelDto" }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Updated AI model",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/AiModel" }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete an AI model",
+        "description": "Deletes an AI model (Phase 4.2).",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "204": { "description": "AI model deleted" }
+        }
+      }
+    },
+    "/scanner/scan": {
+      "post": {
+        "summary": "Scan DOM of a URL",
+        "description": "Scans the DOM of a given URL using Playwright and returns all elements with their properties (Phase 1.2).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/ScanUrlDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "DOM scan result",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ScanResult" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/test-generator/generate": {
+      "post": {
+        "summary": "Generate tests for DOM elements",
+        "description": "Generates individual test scripts for each DOM element using the specified framework (Phase 1.3).",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/GenerateTestsDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Generated tests",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/GenerateTestsResult" }
+              }
+            }
+          }
+        }
+      }
+    }
+    ,
+    "/api-collections": {
+      "get": {
+        "tags": ["Api Collections"],
+        "summary": "List all API collections",
+        "description": "Returns a list of API collections for all projects or filtered by projectId.",
+        "parameters": [
+          {
+            "name": "projectId",
+            "in": "query",
+            "required": false,
+            "schema": { "type": "integer" }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of api collections",
+            "content": {
+              "application/json": {
+                "schema": { "type": "array", "items": { "$ref": "#/components/schemas/ApiCollection" } }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": ["Api Collections"],
+        "summary": "Create a new API collection",
+        "description": "Creates a logical group (collection) of API endpoints for a project. Collections may be auto-created from OpenAPI tags on upload.",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": { "$ref": "#/components/schemas/CreateApiCollectionDto" }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Created api collection",
+            "content": {
+              "application/json": {
+                "schema": { "$ref": "#/components/schemas/ApiCollection" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api-collections/{id}": {
+      "get": {
+        "tags": ["Api Collections"],
+        "summary": "Get an API collection by ID",
+        "parameters": [
+          { "name": "id", "in": "path", "required": true, "schema": { "type": "integer" } }
+        ],
+        "responses": {
+          "200": { "description": "Api collection details", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ApiCollection" } } } }
+        }
+      },
+      "put": {
+        "tags": ["Api Collections"],
+        "summary": "Update an API collection",
+        "parameters": [ { "name": "id", "in": "path", "required": true, "schema": { "type": "integer" } } ],
+        "requestBody": { "content": { "application/json": { "schema": { "$ref": "#/components/schemas/UpdateApiCollectionDto" } } } },
+        "responses": { "200": { "description": "Updated collection", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ApiCollection" } } } } }
+      },
+      "delete": {
+        "tags": ["Api Collections"],
+        "summary": "Delete an API collection",
+        "parameters": [ { "name": "id", "in": "path", "required": true, "schema": { "type": "integer" } } ],
+        "responses": { "204": { "description": "Collection deleted" } }
+      }
+    },
+    "/api-collections/{id}/endpoints": {
+      "get": {
+        "tags": ["Api Collections"],
+        "summary": "List endpoints in a collection",
+        "parameters": [ { "name": "id", "in": "path", "required": true, "schema": { "type": "integer" } } ],
+        "responses": { "200": { "description": "List of endpoints", "content": { "application/json": { "schema": { "type": "array", "items": { "$ref": "#/components/schemas/ApiEndpoint" } } } } } }
+      },
+      "post": {
+        "tags": ["Api Collections"],
+        "summary": "Add API endpoints to a collection",
+        "parameters": [ { "name": "id", "in": "path", "required": true, "schema": { "type": "integer" } } ],
+        "requestBody": { "content": { "application/json": { "schema": { "$ref": "#/components/schemas/AddEndpointsToCollectionDto" } } } },
+        "responses": { "200": { "description": "Collection updated", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ApiCollection" } } } } }
+      },
+      "delete": {
+        "tags": ["Api Collections"],
+        "summary": "Remove API endpoints from a collection",
+        "parameters": [ { "name": "id", "in": "path", "required": true, "schema": { "type": "integer" } } ],
+        "requestBody": { "content": { "application/json": { "schema": { "$ref": "#/components/schemas/AddEndpointsToCollectionDto" } } } },
+        "responses": { "204": { "description": "Endpoints removed from collection" } }
+      }
+    },
+    "/api-collections/{id}/run": {
+      "post": {
+        "tags": ["Api Collections"],
+        "summary": "Run tests for all endpoints in a collection (batch)",
+        "description": "Execute saved API tests or run generated smoke calls for all endpoints in the collection. Returns an aggregated report and per-endpoint results.",
+        "parameters": [ { "name": "id", "in": "path", "required": true, "schema": { "type": "integer" } } ],
+        "requestBody": { "content": { "application/json": { "schema": { "type": "object", "properties": { "onlySavedTests": { "type": "boolean", "description": "If true, only run saved-test entries tied to endpoints" } } } } } },
+        "responses": { "200": { "description": "Run results", "content": { "application/json": { "schema": { "$ref": "#/components/schemas/ApiCollectionRunResult" } } } } }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Project": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "baseUrl": { "type": "string" },
+          "createdAt": { "type": "string", "format": "date-time" },
+          "pages": { "type": "array", "items": { "$ref": "#/components/schemas/Page" } },
+          "tests": { "type": "array", "items": { "$ref": "#/components/schemas/Test" } },
+          "apiEndpoints": { "type": "array", "items": { "$ref": "#/components/schemas/ApiEndpoint" } }
+        }
+      },
+      "CreateProjectDto": {
+        "type": "object",
+        "required": ["name", "baseUrl"],
+        "properties": {
+          "name": { "type": "string" },
+          "baseUrl": { "type": "string" }
+        }
+      },
+      "UpdateProjectDto": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "baseUrl": { "type": "string" }
+        }
+      },
+      "Page": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "url": { "type": "string" },
+          "requirements": { "type": "string", "nullable": true },
+          "project": { "$ref": "#/components/schemas/Project" }
+        }
+      },
+      "CreatePageDto": {
+        "type": "object",
+        "required": ["url", "projectId"],
+        "properties": {
+          "url": { "type": "string" },
+          "requirements": { "type": "string", "nullable": true },
+          "projectId": { "type": "integer" }
+        }
+      },
+      "UpdatePageDto": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "requirements": { "type": "string", "nullable": true }
+        }
+      },
+      "Test": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "framework": { "type": "string" },
+          "script": { "type": "string" },
+          "status": { "type": "string" },
+          "project": { "$ref": "#/components/schemas/Project" }
+        }
+      },
+      "CreateTestDto": {
+        "type": "object",
+        "required": ["framework", "script", "projectId"],
+        "properties": {
+          "framework": { "type": "string" },
+          "script": { "type": "string" },
+          "status": { "type": "string", "default": "generated" },
+          "projectId": { "type": "integer" }
+        }
+      },
+      "UpdateTestDto": {
+        "type": "object",
+        "properties": {
+          "framework": { "type": "string" },
+          "script": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      },
+      "Log": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "testId": { "type": "integer" },
+          "output": { "type": "string" },
+          "executedAt": { "type": "string", "format": "date-time" },
+          "status": { "type": "string" }
+        }
+      },
+      "CreateLogDto": {
+        "type": "object",
+        "required": ["testId", "output", "status"],
+        "properties": {
+          "testId": { "type": "integer" },
+          "output": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      },
+      "UpdateLogDto": {
+        "type": "object",
+        "properties": {
+          "output": { "type": "string" },
+          "status": { "type": "string" }
+        }
+      },
+      "Setting": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "projectId": { "type": "integer", "nullable": true },
+          "key": { "type": "string" },
+          "value": { "type": "string" }
+        }
+      },
+      "CreateSettingDto": {
+        "type": "object",
+        "required": ["key", "value"],
+        "properties": {
+          "projectId": { "type": "integer", "nullable": true },
+          "key": { "type": "string" },
+          "value": { "type": "string" }
+        }
+      },
+      "UpdateSettingDto": {
+        "type": "object",
+        "properties": {
+          "key": { "type": "string" },
+          "value": { "type": "string" }
+        }
+      },
+      "ApiEndpoint": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "method": { "type": "string" },
+          "url": { "type": "string" },
+          "group": { "type": "string", "nullable": true },
+          "requirements": { "type": "string", "nullable": true },
+          "collections": { "type": "array", "items": { "$ref": "#/components/schemas/ApiCollection" }, "nullable": true },
+          "project": { "$ref": "#/components/schemas/Project" }
+        }
+      },
+      "ApiCollection": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "description": { "type": "string", "nullable": true },
+          "projectId": { "type": "integer" },
+          "endpoints": { "type": "array", "items": { "$ref": "#/components/schemas/ApiEndpoint" }, "nullable": true },
+          "createdAt": { "type": "string", "format": "date-time" },
+          "updatedAt": { "type": "string", "format": "date-time" }
+        }
+      },
+      "CreateApiCollectionDto": {
+        "type": "object",
+        "required": ["name", "projectId"],
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string", "nullable": true },
+          "projectId": { "type": "integer" }
+        }
+      },
+      "UpdateApiCollectionDto": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "description": { "type": "string", "nullable": true }
+        }
+      },
+      "AddEndpointsToCollectionDto": {
+        "type": "object",
+        "required": ["endpointIds"],
+        "properties": {
+          "endpointIds": { "type": "array", "items": { "type": "integer" } }
+        }
+      },
+      "ApiCollectionRunResult": {
+        "type": "object",
+        "properties": {
+          "collectionId": { "type": "integer" },
+          "summary": { "type": "object", "properties": { "total": { "type": "integer" }, "passed": { "type": "integer" }, "failed": { "type": "integer" } } },
+          "results": { "type": "array", "items": { "type": "object", "properties": { "endpointId": { "type": "integer" }, "status": { "type": "string" }, "httpStatus": { "type": "integer", "nullable": true }, "durationMs": { "type": "integer" }, "output": { "type": "string", "nullable": true } } } }
+        }
+      },
+      "CreateApiEndpointDto": {
+        "type": "object",
+        "required": ["method", "url", "projectId"],
+        "properties": {
+          "method": { "type": "string" },
+          "url": { "type": "string" },
+          "group": { "type": "string", "nullable": true },
+          "requirements": { "type": "string", "nullable": true },
+          "projectId": { "type": "integer" }
+        }
+      },
+      "UpdateApiEndpointDto": {
+        "type": "object",
+        "properties": {
+          "method": { "type": "string" },
+          "url": { "type": "string" },
+          "group": { "type": "string", "nullable": true },
+          "requirements": { "type": "string", "nullable": true }
+        }
+      },
+      "AiModel": {
+        "type": "object",
+        "properties": {
+          "id": { "type": "integer" },
+          "name": { "type": "string" },
+          "apiKey": { "type": "string" },
+          "isFallback": { "type": "boolean" }
+        }
+      },
+      "CreateAiModelDto": {
+        "type": "object",
+        "required": ["name", "apiKey"],
+        "properties": {
+          "name": { "type": "string" },
+          "apiKey": { "type": "string" },
+          "isFallback": { "type": "boolean", "default": false }
+        }
+      },
+      "UpdateAiModelDto": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "apiKey": { "type": "string" },
+          "isFallback": { "type": "boolean" }
+        }
+      },
+      "ScanUrlDto": {
+        "type": "object",
+        "required": ["url"],
+        "properties": {
+          "url": { "type": "string" }
+        }
+      },
+      "ScanResult": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string" },
+          "elements": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "type": { "type": "string" },
+                "id": { "type": "string", "nullable": true },
+                "class": { "type": "string", "nullable": true },
+                "text": { "type": "string", "nullable": true },
+                "actionability": {
+                  "type": "object",
+                  "properties": {
+                    "isVisible": { "type": "boolean" },
+                    "isClickable": { "type": "boolean" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "GenerateTestsDto": {
+        "type": "object",
+        "required": ["elements"],
+        "properties": {
+          "elements": {
+            "type": "array",
+            "items": { "$ref": "#/components/schemas/ScanResult/properties/elements/items" }
+          },
+          "framework": { "type": "string", "default": "playwright" }
+        }
+      },
+      "GenerateTestsResult": {
+        "type": "object",
+        "properties": {
+          "tests": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}
