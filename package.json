@@ -1,0 +1,13 @@
+{
+  "name": "backend-root",
+  "private": true,
+  "workspaces": [
+    "backend-api"
+  ],
+  "scripts": {
+    "start": "cd backend-api && npm start",
+    "install": "cd backend-api && npm install",
+    "build": "cd backend-api && npm run build",
+    "test": "cd backend-api && npm test"
+  }
+}

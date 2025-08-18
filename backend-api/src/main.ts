@@ -13,6 +13,14 @@ async function bootstrap() {
     forbidNonWhitelisted: false,
   }));
 
+  // Enable CORS so the Vite dev server (frontend) can call this API during development
+  app.enableCors({
+    origin: [process.env.FRONTEND_ORIGIN || 'http://localhost:5173'],
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
+    credentials: true,
+    allowedHeaders: 'Content-Type, Accept, Authorization'
+  });
+
   const config = new DocumentBuilder()
     .setTitle('AI Test Platform API')
     .setDescription('API documentation for the AI Test Platform')
