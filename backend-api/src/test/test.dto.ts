@@ -4,23 +4,17 @@ import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 export class CreateTestDto {
   @ApiProperty()
   @IsString()
-  framework: string;
+  name: string;
 
   @ApiProperty()
   @IsString()
-  script: string;
+  description: string;
 
   @ApiPropertyOptional()
   @IsOptional()
   @IsString()
   status?: string = 'generated';
 
-  @ApiProperty()
-  @IsInt()
-  projectId: number;
-}
-
-export class UpdateTestDto {
   @ApiPropertyOptional()
   @IsOptional()
   @IsString()
@@ -31,8 +25,34 @@ export class UpdateTestDto {
   @IsString()
   script?: string;
 
+  @ApiProperty()
+  @IsInt()
+  projectId: number;
+}
+
+export class UpdateTestDto {
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  name?: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  description?: string;
+
   @ApiPropertyOptional()
   @IsOptional()
   @IsString()
   status?: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  framework?: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  script?: string;
 }

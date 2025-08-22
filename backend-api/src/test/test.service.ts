@@ -25,20 +25,24 @@ export class TestService {
   async create(dto: CreateTestDto): Promise<Test> {
     const project = dto.projectId ? await this.projectRepository.findOne({ where: { id: dto.projectId } }) : null;
     const test = this.testRepository.create({
+      name: dto.name,
+      description: dto.description,
+      status: dto.status ?? 'generated',
       framework: dto.framework,
       script: dto.script,
-      status: dto.status ?? 'generated',
       project: project ?? undefined,
-    } as any);
-  return (this.testRepository.save(test) as unknown) as Test;
+    });
+    return this.testRepository.save(test);
   }
 
   async update(id: number, dto: UpdateTestDto): Promise<Test | null> {
     const test = await this.testRepository.findOne({ where: { id } });
     if (!test) return null;
-    if (dto.framework) test.framework = dto.framework;
-    if (dto.script) test.script = dto.script;
+    if (dto.name) test.name = dto.name;
+    if (dto.description) test.description = dto.description;
     if (dto.status) test.status = dto.status;
+    if (dto.framework !== undefined) test.framework = dto.framework;
+    if (dto.script !== undefined) test.script = dto.script;
     await this.testRepository.save(test);
     return test;
   }

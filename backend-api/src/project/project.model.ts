@@ -6,4 +6,5 @@ export class Project {
   pages?: any[];
   tests?: any[];
   apiEndpoints?: any[];
+  apiCollections?: any[];
 }

@@ -1,4 +1,17 @@
-import { Controller, Get, Post, Put, Delete, Param, Body, ParseIntPipe, HttpCode } from '@nestjs/common';
+import { 
+  Controller, 
+  Get, 
+  Post, 
+  Put, 
+  Delete, 
+  Param, 
+  Body, 
+  ParseIntPipe, 
+  HttpCode, 
+  HttpException,
+  Query,
+  NotFoundException
+} from '@nestjs/common';
 import { ProjectService } from './project.service';
 import { CreateProjectDto, UpdateProjectDto } from './project.dto';
 import { Project } from './project.entity';
@@ -8,28 +21,87 @@ export class ProjectController {
   constructor(private readonly projectService: ProjectService) {}
 
   @Get()
-  findAll(): Promise<Project[]> {
-    return this.projectService.findAll();
+  async findAll(): Promise<Project[]> {
+    try {
+      return await this.projectService.findAll();
+    } catch (error) {
+      throw new HttpException(error.message, 500);
+    }
   }
 
   @Get(':id')
-  findOne(@Param('id', ParseIntPipe) id: number): Promise<Project | null> {
-    return this.projectService.findOne(id);
+  async findOne(@Param('id', ParseIntPipe) id: number): Promise<Project> {
+    try {
+      return await this.projectService.findOne(id);
+    } catch (error) {
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      throw new HttpException(error.message, 500);
+    }
+  }
+
+  @Get(':id/statistics')
+  async getStatistics(@Param('id', ParseIntPipe) id: number) {
+    try {
+      return await this.projectService.getStatistics(id);
+    } catch (error) {
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      throw new HttpException(error.message, 500);
+    }
+  }
+
+  @Get('search/by-name')
+  async searchByName(@Query('name') name: string): Promise<Project[]> {
+    try {
+      if (!name) {
+        throw new HttpException('Name query parameter is required', 400);
+      }
+      return await this.projectService.searchByName(name);
+    } catch (error) {
+      if (error instanceof HttpException) {
+        throw error;
+      }
+      throw new HttpException(error.message, 500);
+    }
   }
 
   @Post()
-  create(@Body() createProjectDto: CreateProjectDto): Promise<Project> {
-    return this.projectService.create(createProjectDto);
+  async create(@Body() createProjectDto: CreateProjectDto): Promise<Project> {
+    try {
+      return await this.projectService.create(createProjectDto);
+    } catch (error) {
+      throw new HttpException(error.message, 500);
+    }
   }
 
   @Put(':id')
-  update(@Param('id', ParseIntPipe) id: number, @Body() updateProjectDto: UpdateProjectDto): Promise<Project | null> {
-    return this.projectService.update(id, updateProjectDto);
+  async update(
+    @Param('id', ParseIntPipe) id: number, 
+    @Body() updateProjectDto: UpdateProjectDto
+  ): Promise<Project> {
+    try {
+      return await this.projectService.update(id, updateProjectDto);
+    } catch (error) {
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      throw new HttpException(error.message, 500);
+    }
   }
 
   @Delete(':id')
   @HttpCode(204)
-  remove(@Param('id', ParseIntPipe) id: number): Promise<void> {
-    return this.projectService.remove(id);
+  async remove(@Param('id', ParseIntPipe) id: number): Promise<void> {
+    try {
+      await this.projectService.remove(id);
+    } catch (error) {
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      throw new HttpException(error.message, 500);
+    }
   }
 }
