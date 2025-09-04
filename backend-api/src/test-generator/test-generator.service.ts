@@ -1,35 +1,48 @@
 import { Injectable } from '@nestjs/common';
 import { GenerateTestsDto, GenerateTestsResult } from './test-generator.dto';
+import { ScannerAdapterService } from './scanner-adapter.service';
+import { TestTemplatesService } from './test-templates.service';
 
 @Injectable()
 export class TestGeneratorService {
+  constructor(
+    private readonly scannerAdapter: ScannerAdapterService,
+    private readonly templates: TestTemplatesService,
+  ) {}
+
   async generate(dto: GenerateTestsDto): Promise<GenerateTestsResult> {
-    // Mock response; real implementation would generate scripts for each element
-        // Only Playwright supported for now
-        const framework = dto.framework?.toLowerCase() || 'playwright';
-        if (framework !== 'playwright') {
-          return { tests: [`// Framework ${framework} not supported yet.`] };
-        }
+    const adaptedElements = this.scannerAdapter.adaptScanResults(dto.elements);
+    const framework = this.normalizeFramework(dto.framework);
 
-        const requirementsNote = dto.requirements ? `// Requirements: ${dto.requirements}\n` : '';
-        const tests = dto.elements.map((el, idx) => {
-          let selector = '';
-          if (el.id) selector = `#${el.id}`;
-          else if (el.class) selector = `.${el.class.split(' ').join('.')}`;
-          else selector = el.type;
+    if (!adaptedElements || adaptedElements.length === 0) {
+      return { tests: ["// Please provide elements to generate tests for"] };
+    }
 
-          return `${requirementsNote}// Test for ${el.type} ${el.id ? `id=${el.id}` : ''}
-import { test, expect } from '@playwright/test';
+    const tests = adaptedElements.map((el, idx) => {
+      switch (framework) {
+        case 'playwright':
+        case 'playwright-test':
+          return this.templates.generatePlaywrightTest(el as any, idx, dto.requirements);
+        case 'selenium':
+        case 'webdriverjs':
+          return this.templates.generateSeleniumTest(el as any, idx, dto.requirements);
+        case 'cypress':
+          return this.templates.generateCypressTest(el as any, idx, dto.requirements);
+        default:
+          return `// Unknown framework: ${framework}. Supported: playwright, selenium/webdriverjs, cypress.`;
+      }
+    });
 
-test('Test element ${idx + 1}: ${selector}', async ({ page }) => {
-  await page.goto('YOUR_URL_HERE');
-  const element = await page.locator('${selector}');
-  await expect(element).toBeVisible();
-  ${el.actionability?.isClickable ? 'await element.click();' : ''}
-  // Add more assertions as needed
-});
-`;
-        });
-        return { tests };
+    return { tests };
+  }
+
+  private normalizeFramework(value?: string): 'playwright' | 'selenium' | 'webdriverjs' | 'cypress' | string {
+    const raw = (value || 'playwright').toLowerCase().trim();
+    if (raw.includes('playwright')) return 'playwright';
+    if (raw.includes('cypress')) return 'cypress';
+    if (raw.includes('selenium')) return 'selenium';
+    if (raw.includes('webdriver')) return 'selenium';
+    if (raw === 'pw') return 'playwright';
+    return raw;
   }
 }

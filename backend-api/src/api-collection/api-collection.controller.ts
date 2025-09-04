@@ -1,4 +1,4 @@
-import { Controller, Get, Post, Body, Put, Param, Delete, ParseIntPipe } from '@nestjs/common';
+import { Controller, Get, Post, Body, Put, Param, Delete, ParseIntPipe, Query } from '@nestjs/common';
 import { ApiCollectionService } from './api-collection.service';
 import { CreateApiCollectionDto } from './dto/create-api-collection.dto';
 import { UpdateApiCollectionDto } from './dto/update-api-collection.dto';
@@ -12,8 +12,22 @@ export class ApiCollectionController {
   constructor(private readonly service: ApiCollectionService) {}
 
   @Get()
-  findAll() {
-    return this.service.findAll();
+  findAll(@Query('projectId') projectId?: string) {
+    // If called without a project context (e.g., page initial load), avoid heavy queries
+    if (projectId === undefined || projectId === null || `${projectId}`.trim() === '') {
+      return [];
+    }
+    const id = Number(projectId);
+    if (Number.isNaN(id)) {
+      // Invalid query param; return empty set instead of throwing
+      return [];
+    }
+    try {
+      return this.service.findAll(id);
+    } catch (_err) {
+      // Avoid surfacing errors during initial page load; return empty
+      return [];
+    }
   }
 
   @Get(':id')

@@ -1,4 +1,4 @@
-import { Entity, PrimaryGeneratedColumn, Column, ManyToOne } from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from 'typeorm';
 import { Project } from '../project/project.entity';
 
 @Entity()
@@ -6,10 +6,14 @@ export class Setting {
   @PrimaryGeneratedColumn()
   id: number;
 
-  @ManyToOne(() => Project, project => project.id, { nullable: true, onDelete: 'CASCADE' })
+  @Column({ name: 'project_id', nullable: true })
+  projectId?: number;
+
+  @ManyToOne(() => Project, { nullable: true, onDelete: 'CASCADE' })
+  @JoinColumn({ name: 'project_id' })
   project?: Project;
 
-  @Column()
+  @Column({ unique: false })
   key: string;
 
   @Column('text')

@@ -238,6 +238,8 @@ export interface SystemSettings {
   // We keep this object for other system-wide settings.
   maxConcurrentTests: number;
   platformApiKey: string; // This is the key for our app's own API
+  openaiApiKey?: string;
+  geminiApiKey?: string;
 }
 
 export interface WebhookPayload {

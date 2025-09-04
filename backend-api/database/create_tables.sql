@@ -1,3 +1,18 @@
+CREATE TABLE `api_collection` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `name` VARCHAR(255) NOT NULL,
+  `description` TEXT,
+  `projectId` INT NOT NULL,
+  FOREIGN KEY (`projectId`) REFERENCES `project`(`id`) ON DELETE CASCADE
+);
+
+CREATE TABLE `api_collection_endpoints` (
+  `id` INT AUTO_INCREMENT PRIMARY KEY,
+  `apiCollectionId` INT NOT NULL,
+  `apiEndpointId` INT NOT NULL,
+  FOREIGN KEY (`apiCollectionId`) REFERENCES `api_collection`(`id`) ON DELETE CASCADE,
+  FOREIGN KEY (`apiEndpointId`) REFERENCES `api_endpoint`(`id`) ON DELETE CASCADE
+);
 CREATE TABLE `project` (
   `id` INT AUTO_INCREMENT PRIMARY KEY,
   `name` VARCHAR(255) NOT NULL,

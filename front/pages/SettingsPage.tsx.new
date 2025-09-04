@@ -62,7 +62,7 @@ const PlatformApiKeyManager: React.FC = () => {
 };
 
 const SettingsPage: React.FC = () => {
-    const { settings, fetchSettings, updateSettings } = useSettings();
+    const { settings, updateSettings } = useSettings();
     const { t } = useLanguage();
     const setPageInfo = useSetPageInfo();
     const [localSettings, setLocalSettings] = useState<SystemSettings>(settings);
@@ -71,12 +71,6 @@ const SettingsPage: React.FC = () => {
     useEffect(() => {
         setPageInfo({ title: t('settingsPage.title') });
     }, [setPageInfo, t]);
-
-    useEffect(() => {
-        fetchSettings().finally(() => {
-            // after fetch, settings will update via context
-        });
-    }, [fetchSettings]);
 
     useEffect(() => {
         setLocalSettings(settings);

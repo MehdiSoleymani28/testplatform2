@@ -7,6 +7,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { ProjectController } from './project/project.controller';
 import { ProjectService } from './project/project.service';
+import { TestGeneratorModule } from './test-generator/test-generator.module';
 import { Project } from './project/project.entity';
 import { PageController } from './page/page.controller';
 import { PageService } from './page/page.service';
@@ -70,6 +71,9 @@ import { TestGeneratorService } from './test-generator/test-generator.service';
   AiModel,
   SavedTest,
     ]),
+    // Import the TestGeneratorModule so its providers (e.g., ScannerAdapterService)
+    // are available and TestGeneratorService can be resolved properly
+    TestGeneratorModule,
   ],
   controllers: [
     AppController,
@@ -84,7 +88,6 @@ import { TestGeneratorService } from './test-generator/test-generator.service';
   // api collections
   ApiCollectionController,
     ScannerController,
-    TestGeneratorController,
   ],
   providers: [
     AppService,
@@ -98,7 +101,6 @@ import { TestGeneratorService } from './test-generator/test-generator.service';
   SavedTestService,
   ApiCollectionService,
     ScannerService,
-    TestGeneratorService,
   ],
 })
 export class AppModule {}

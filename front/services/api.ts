@@ -1,4 +1,4 @@
-import { CreateProjectDto, UpdateProjectDto, Project, Page, CreatePageDto, UpdatePageDto, Test, CreateTestDto, UpdateTestDto, DomStructure, GenerateTestsDto, ApiEndpoint, CreateApiEndpointDto, UpdateApiEndpointDto, TestType, UiFramework, ApiFramework, DomElement, UiTest, ApiCollection, ApiTest, TestRun } from "../types";
+import { CreateProjectDto, UpdateProjectDto, Project, Page, CreatePageDto, UpdatePageDto, Test, CreateTestDto, UpdateTestDto, DomStructure, GenerateTestsDto, ApiEndpoint, CreateApiEndpointDto, UpdateApiEndpointDto, TestType, UiFramework, ApiFramework, DomElement, UiTest, ApiCollection, ApiTest, TestRun, SystemSettings } from "../types";
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3000';
 
@@ -8,25 +8,31 @@ const apiRequest = async <T>(endpoint: string, options: RequestInit = {}): Promi
   const response = await fetch(url, {
     headers: {
       'Content-Type': 'application/json',
+      'accept': '*/*',
       ...options.headers,
     },
     ...options,
   });
 
   if (!response.ok) {
-    const error = await response.text();
-    throw new Error(`API Error: ${response.status} - ${error}`);
+    let errorMessage;
+    try {
+      const errorBody = await response.json();
+      errorMessage = errorBody.message || errorBody.error || await response.text();
+    } catch {
+      errorMessage = await response.text();
+    }
+    throw new Error(`API Error: ${response.status} - ${errorMessage}`);
   }
 
-  return response.json();
+  const data = await response.json();
+  return data;
 };
 
 // --- Projects ---
 export const getProjects = (): Promise<Project[]> => 
   apiRequest<Project[]>('/projects');
 
-export const getProject = (id: number): Promise<Project> => 
-  apiRequest<Project>(`/projects/${id}`);
 
 export const createProject = (data: CreateProjectDto): Promise<Project> => 
   apiRequest<Project>('/projects', {
@@ -148,8 +154,15 @@ export const generateApiTest = (endpoint: ApiEndpoint, project: Project): Promis
 export const getSettings = (): Promise<any> => 
   apiRequest<any>('/settings');
 
-export const updateSettings = (settings: any): Promise<any> => 
-  apiRequest<any>('/settings', {
-    method: 'PUT',
+export interface Setting {
+  key: string;
+  value: string;
+  projectId?: number | null;
+}
+
+export const updateSettings = (settings: Setting[]): Promise<any> => {
+  return apiRequest<any>('/settings', {
+    method: 'POST',
     body: JSON.stringify(settings),
   });
+};

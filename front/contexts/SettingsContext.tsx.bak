@@ -5,7 +5,6 @@ import { settingsTransformers } from '../services/settingsTransform';
 
 interface SettingsContextType {
   settings: SystemSettings;
-  fetchSettings: () => Promise<void>;
   updateSettings: (newSettings: SystemSettings) => Promise<void>;
   regeneratePlatformApiKey: () => Promise<void>;
 }
@@ -32,11 +31,16 @@ export const SettingsProvider: React.FC<{ children: ReactNode }> = ({ children }
     }
   }, []);
 
+  useEffect(() => {
+    fetchSettings();
+  }, [fetchSettings]);
+
   const updateSettingsHandler = async (newSettings: SystemSettings) => {
     try {
       const transformedSettings = settingsTransformers.toApi(newSettings);
-      console.log('Sending settings update:', transformedSettings);
+      console.log('Sending settings update:', transformedSettings); // اضافه کردن لاگ
       await api.updateSettings(transformedSettings);
+      }
 
       // پس از موفقیت همه تغییرات، state را آپدیت می‌کنیم
       setSettings(newSettings);
@@ -48,12 +52,12 @@ export const SettingsProvider: React.FC<{ children: ReactNode }> = ({ children }
 
   const regeneratePlatformApiKey = async () => {
     try {
-      const settingToUpdate = [{
+      const settingToUpdate = {
         key: 'platformApiKey',
         value: 'regenerate',
         projectId: null
-      }];
-      console.log('Regenerating platform API key:', settingToUpdate);
+      };
+      console.log('Regenerating platform API key:', settingToUpdate); // اضافه کردن لاگ
       await api.updateSettings(settingToUpdate);
       await fetchSettings();
     } catch (error) {
@@ -65,7 +69,6 @@ export const SettingsProvider: React.FC<{ children: ReactNode }> = ({ children }
   return (
     <SettingsContext.Provider value={{
       settings,
-      fetchSettings,
       updateSettings: updateSettingsHandler,
       regeneratePlatformApiKey
     }}>

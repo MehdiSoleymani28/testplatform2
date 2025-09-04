@@ -61,11 +61,12 @@ export const ProjectProvider: React.FC<{ children: ReactNode }> = ({ children })
     setLoading(true);
     setError(null);
     try {
+      console.log('Fetching projects...');
       const fetchedProjects = await api.getProjects();
+      console.log('Projects fetched successfully:', fetchedProjects);
       // The backend spec is simple. We may need to enrich the project objects
       // for frontend use if the mock data had fields the backend doesn't provide.
       const enrichedProjects = await Promise.all(fetchedProjects.map(async p => {
-          const collections = await api.getApiCollections(p.id);
           return {
               ...p,
               tests: p.tests?.map(t => enrichTest(t as Test, p)) || [],
@@ -73,7 +74,8 @@ export const ProjectProvider: React.FC<{ children: ReactNode }> = ({ children })
               description: p.description || '',
               notificationSettings: p.notificationSettings || { emails: [], webhooks: [], failureThreshold: 80 },
               visualRegressionEnabled: p.visualRegressionEnabled || false,
-              apiCollections: collections || [],
+              // Do not prefetch api-collections on projects list load; keep existing if present
+              apiCollections: p.apiCollections || [],
               apiAuthentication: p.apiAuthentication || { apiKey: '' },
           };
       }));

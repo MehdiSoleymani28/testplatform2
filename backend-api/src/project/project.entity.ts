@@ -15,6 +15,9 @@ export class Project {
   @Column()
   baseUrl: string;
 
+  @Column({ type: 'text', nullable: true })
+  description: string | null;
+
   @Column()
   createdAt: Date;
 

@@ -76,6 +76,7 @@ export class ProjectService {
       const project = this.projectRepository.create({
         name: dto.name,
         baseUrl: dto.baseUrl,
+        description: dto.description,
         createdAt: new Date(),
       });
       
@@ -94,6 +95,7 @@ export class ProjectService {
       
       if (dto.name) project.name = dto.name;
       if (dto.baseUrl) project.baseUrl = dto.baseUrl;
+      if (dto.description !== undefined) project.description = dto.description;
       
       return await this.projectRepository.save(project);
     } catch (error) {

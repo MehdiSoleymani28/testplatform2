@@ -14,6 +14,7 @@ describe('ProjectService', () => {
     id: 1,
     name: 'Test Project',
     baseUrl: 'https://example.com',
+    description: 'Test description' as string | null,
     createdAt: new Date(),
     pages: [],
     tests: [],

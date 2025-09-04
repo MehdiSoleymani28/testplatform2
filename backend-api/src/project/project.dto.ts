@@ -10,6 +10,11 @@ export class CreateProjectDto {
   @IsString()
   @IsUrl({ require_tld: false })
   baseUrl: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  description?: string;
 }
 
 export class UpdateProjectDto {
@@ -23,4 +28,9 @@ export class UpdateProjectDto {
   @IsString()
   @IsUrl({ require_tld: false })
   baseUrl?: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  description?: string;
 }

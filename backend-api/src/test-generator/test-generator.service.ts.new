@@ -1,0 +1,72 @@
+import { Injectable } from '@nestjs/common';
+import { GenerateTestsDto, GenerateTestsResult } from './test-generator.dto';
+
+@Injectable()
+export class TestGeneratorService {
+  async generate(dto: GenerateTestsDto): Promise<GenerateTestsResult> {
+    const framework = dto.framework?.toLowerCase() || 'playwright';
+    const requirementsNote = dto.requirements ? `// Requirements: ${dto.requirements}\n` : '';
+    const tests = dto.elements.map((el, idx) => {
+      let selector = '';
+      if (el.id) selector = `#${el.id}`;
+      else if (el.class) selector = `.${el.class.split(' ').join('.')}`;
+      else selector = el.type;
+
+      switch (framework) {
+        case 'playwright':
+          return `${requirementsNote}// Test for ${el.type} ${el.id ? `id=${el.id}` : ''}
+import { test, expect } from '@playwright/test';
+
+test('Test element ${idx + 1}: ${selector}', async ({ page }) => {
+  await page.goto('YOUR_URL_HERE');
+  const element = await page.locator('${selector}');
+  await expect(element).toBeVisible();
+  ${el.actionability?.isClickable ? 'await element.click();' : ''}
+  // Add more assertions as needed
+});`;
+
+        case 'selenium':
+        case 'webdriverjs':
+          return `${requirementsNote}// Test for ${el.type} ${el.id ? `id=${el.id}` : ''}
+const { Builder, By, until } = require('selenium-webdriver');
+
+describe('Test element ${idx + 1}: ${selector}', () => {
+  let driver;
+
+  beforeEach(async () => {
+    driver = await new Builder().forBrowser('chrome').build();
+  });
+
+  afterEach(async () => {
+    await driver.quit();
+  });
+
+  it('should interact with element', async () => {
+    await driver.get('YOUR_URL_HERE');
+    const element = await driver.wait(until.elementLocated(By.css('${selector}')), 10000);
+    await driver.wait(until.elementIsVisible(element), 10000);
+    ${el.actionability?.isClickable ? 'await element.click();' : ''}
+    // Add more assertions as needed
+  });
+});`;
+
+        case 'cypress':
+          return `${requirementsNote}// Test for ${el.type} ${el.id ? `id=${el.id}` : ''}
+describe('Test element ${idx + 1}: ${selector}', () => {
+  it('should interact with element', () => {
+    cy.visit('YOUR_URL_HERE');
+    cy.get('${selector}').should('be.visible');
+    ${el.actionability?.isClickable ? "cy.get('${selector}').click();" : ''}
+    // Add more assertions as needed
+  });
+});`;
+
+        default:
+          return `${requirementsNote}// Test for ${el.type} ${el.id ? `id=${el.id}` : ''}
+// Please choose from these supported frameworks: playwright, selenium (webdriverjs), or cypress`;
+      }
+    });
+    
+    return { tests };
+  }
+}
