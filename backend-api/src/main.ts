@@ -5,6 +5,8 @@ import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { ValidationPipe } from '@nestjs/common';
 import { plainToInstance } from 'class-transformer';
 import * as express from 'express';
+import { writeFileSync } from 'fs';
+import { join } from 'path';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -33,6 +35,17 @@ async function bootstrap() {
     .build();
   const document = SwaggerModule.createDocument(app, config);
   SwaggerModule.setup('api', app, document);
+
+  // Also export the OpenAPI spec to JSON files for external use
+  try {
+    const spec = JSON.stringify(document, null, 2);
+    // Write inside the package folder
+    writeFileSync(join(process.cwd(), 'swagger.json'), spec);
+    // Write at the monorepo root as well (one level up from backend-api)
+    writeFileSync(join(process.cwd(), '..', 'swagger.json'), spec);
+  } catch (err) {
+    // Non-fatal: if writing fails, just continue running the app
+  }
 
   await app.listen(process.env.PORT ?? 3000);
 }
