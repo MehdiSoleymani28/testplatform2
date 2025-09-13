@@ -1,0 +1,191 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "تاثیر Google AI Overview بر سئو و راهکارهای بهینه‌سازی" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 675" [ref=e60]
+        - generic [ref=e61]:
+          - heading "مقدمه" [level=3] [ref=e62]
+          - paragraph [ref=e63]:
+            - strong [ref=e64]: اگر در زمینه سئو یا بازاریابی دیجیتال فعالیت دارید، حتماً متوجه تغییرات ظاهر نتایج جستجوی گوگل شده‌اید. پاسخ‌های فوری و خلاصه‌ای که در بالای صفحه جستجو نمایش داده می‌شوند، بخشی از ویژگی جدید Google AI Overview هستند. این قابلیت به کاربران امکان می‌دهد بدون نیاز به کلیک روی چندین سایت مختلف، پاسخ سوال خود را به سرعت دریافت کنند. در این مقاله به بررسی تاثیر این ویژگی بر دنیای سئو و روش‌های بهینه‌سازی محتوا برای سازگاری با آن می‌پردازیم.
+          - heading "Google AI Overview چیست و چگونه کار می‌کند؟" [level=3] [ref=e65]
+          - paragraph [ref=e66]:
+            - strong [ref=e67]: Google AI Overview یک ویژگی جدید است که پاسخ سوالات کاربران را در بالای صفحه نتایج جستجو به صورت خلاصه و جامع ارائه می‌دهد. اطلاعات از منابع مختلف وب جمع‌آوری شده و پاسخ حدوداً 160 تا 170 کلمه‌ای شکل می‌گیرد تا کاربران سریع‌تر به جواب برسند. این مسئله باعث شده کاربران کمتر روی لینک‌های پایین‌تر کلیک کنند، موضوعی که چالش بزرگی برای سئو محسوب می‌شود. نکته مهم این است که این ویژگی غیرفعال‌پذیر است و نمی‌توان از نمایش آن در نتایج جستجو جلوگیری کرد.
+          - heading "تاثیر AI Overview بر سئو و نتایج جستجو" [level=3] [ref=e68]
+          - paragraph [ref=e69]:
+            - strong [ref=e70]: AI Overview بخش زیادی از فضای بالای صفحه جستجو را اشغال می‌کند و حتی اگر سایت شما در صفحه اول باشد، ممکن است کاربران پس از خواندن پاسخ AI دیگر نیازی به کلیک روی لینک‌های شما نداشته باشند. جالب است بدانید که 33.4% لینک‌های نمایش داده‌شده در این پاسخ‌ها از سایت‌هایی هستند که در ده نتیجه برتر جستجوی ارگانیک قرار دارند. همچنین 46.5% از URLهایی که در این بخش نمایش داده می‌شوند، متعلق به سایت‌هایی هستند که حتی در رتبه‌بندی‌های پایین‌تر از ۵۰ قرار دارند. این موضوع فرصت‌ها و تهدیدهای جدیدی برای استراتژی‌های سئو به وجود آورده است.
+          - heading "روش‌های بهینه‌سازی محتوا برای AI Overview" [level=3] [ref=e71]
+          - paragraph [ref=e72]:
+            - strong [ref=e73]: برای موفقیت در دنیای جدید سئو، باید استراتژی‌های خود را با ویژگی AI Overview هماهنگ کنید. نکات مهم شامل رعایت استانداردهای گوگل برای نویسندگان، شروع قوی با ۱۰۰ کلمه اول پاسخگو، استفاده از عناوین توصیفی و ساختار سؤالی، و بهره‌گیری از فهرست‌های شماره‌دار یا بولت‌دار است که مورد علاقه هوش مصنوعی هستند. همچنین تمرکز بر کیفیت، ارائه مطالعات موردی منحصربه‌فرد و کلمات کلیدی مرتبط اهمیت زیادی دارد. رعایت اصول EEAT (تخصص، اعتبار و اعتماد) نیز نقش حیاتی در جلب نظر الگوریتم‌ها و کاربران دارد.
+          - heading "نتیجه‌گیری" [level=3] [ref=e74]
+          - paragraph [ref=e75]:
+            - strong [ref=e76]: Google AI Overview نحوه تعامل کاربران با نتایج جستجو را به‌طور بنیادی تغییر داده است. این ویژگی که پاسخ‌های فوری و مختصر به کاربران ارائه می‌دهد، باعث کاهش کلیک‌ها روی لینک‌های پایین‌تر صفحه شده و بدین‌ترتیب چالش جدیدی برای متخصصان سئو ایجاد کرده است. با این حال، با به‌کارگیری تکنیک‌های بهینه‌سازی مخصوص AI Overview و تولید محتوای باکیفیت و هدفمند، می‌توان از این فرصت برای تقویت برند و افزایش اعتبار سایت استفاده کرد. دنیای سئو در حال تحول است و انطباق با این تغییرات، کلید موفقیت باقی ماندن در عرصه رقابت خواهد بود.
+          - paragraph [ref=e77]
+          - paragraph [ref=e78]:
+            - text: با ما همراه باشید.
+            - link "هوش نوین" [ref=e79] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - strong [ref=e82]: AI Categories
+            - text: ":"
+          - link "اخبار-هوش مصنوعی" [ref=e83] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/ai-news/
+      - generic [ref=e85]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e86]: دیدگاهتان را بنویسید
+        - generic [ref=e87]:
+          - paragraph [ref=e88]:
+            - generic [ref=e89]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e90]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e91]: "*"
+          - paragraph [ref=e92]:
+            - generic [ref=e93]:
+              - text: دیدگاه
+              - generic [ref=e94]: "*"
+            - textbox "دیدگاه *" [ref=e95]
+          - paragraph [ref=e96]:
+            - generic [ref=e97]:
+              - text: نام
+              - generic [ref=e98]: "*"
+            - textbox "نام *" [ref=e99]
+          - paragraph [ref=e100]:
+            - generic [ref=e101]:
+              - text: ایمیل
+              - generic [ref=e102]: "*"
+            - textbox "ایمیل *" [ref=e103]
+          - paragraph [ref=e104]:
+            - generic [ref=e105]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e106]
+          - paragraph [ref=e107]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e108]
+            - generic [ref=e109]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e110]:
+            - button "فرستادن دیدگاه" [ref=e111] [cursor=pointer]
+  - contentinfo [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "هوش نوین" [level=2] [ref=e116]
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - link "خانه" [ref=e119] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e120]:
+            - link "درباره هوش نوین" [ref=e121] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e122]:
+            - link "خدمات هوش نوین" [ref=e123] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e124]:
+            - link "مقالات هوش نوین" [ref=e125] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e126]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e127] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e128]:
+        - heading "تماس با ما" [level=2] [ref=e129]
+        - generic [ref=e130]:
+          - figure [ref=e131]
+          - paragraph [ref=e132]: novinaihub@gmail.com
+        - generic [ref=e133]:
+          - figure [ref=e134]
+          - paragraph [ref=e135]: "09386877087"
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - link "Facebook" [ref=e138] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e139] [cursor=pointer]
+              - generic [ref=e141] [cursor=pointer]: Facebook
+          - listitem [ref=e142]:
+            - link "Instagram" [ref=e143] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e144] [cursor=pointer]
+              - generic [ref=e146] [cursor=pointer]: Instagram
+          - listitem [ref=e147]:
+            - link "LinkedIn" [ref=e148] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e149] [cursor=pointer]
+              - generic [ref=e151] [cursor=pointer]: LinkedIn
+          - listitem [ref=e152]:
+            - link "YouTube" [ref=e153] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e154] [cursor=pointer]
+              - generic [ref=e156] [cursor=pointer]: YouTube
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - paragraph [ref=e160]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e161]:
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "صفحه اصلی" [ref=e168] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e169] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e170]:
+              - link "درباره ما" [ref=e171] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e172] [cursor=pointer]: درباره ما
+            - listitem [ref=e173]:
+              - link "خدمات هوش نوین" [ref=e174] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e175] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e176]:
+              - link "آخرین اخبار" [ref=e177] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e178] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e179]:
+              - link "مقالات" [ref=e180] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e181] [cursor=pointer]: مقالات
+      - paragraph: 
+```

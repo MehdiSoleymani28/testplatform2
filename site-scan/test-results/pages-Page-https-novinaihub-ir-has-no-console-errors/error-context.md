@@ -1,0 +1,239 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - main [ref=e53]:
+    - generic [ref=e55]:
+      - heading "هوش نوین – مرجع اخبار هوش مصنوعی" [level=2] [ref=e56]
+      - paragraph [ref=e57]: به روزترین اخبار، مقالات و تحلیلها در زمینه هوش مصنوعی
+      - paragraph [ref=e58]: با ما همراه باشید تا از آخرین پیشرفتها و تحولات دنیای هوش مصنوعی مطلع شوید.
+      - link "آخرین اخبار هوش مصنوعی" [ref=e61] [cursor=pointer]:
+        - /url: https://novinaihub.ir/index.php/news/
+  - main [ref=e62]:
+    - generic [ref=e64]:
+      - generic [ref=e65]:
+        - paragraph [ref=e66]:
+          - strong [ref=e67]: درباره ما
+        - heading "مرجع تخصصی اخبار و خدمات هوش مصنوعی" [level=2] [ref=e68]
+        - paragraph [ref=e69]: هوش نوین، پلتفرم تخصصی اخبار و مقالات هوش مصنوعی است که با هدف ارائه آخرین تحولات و پیشرفت‌های این حوزه تأسیس شده است. ما با تیم متخصص خود، اخبار و تحلیل‌های عمیق در زمینه هوش مصنوعی، یادگیری ماشین و فناوری‌های نوظهور را پوشش می‌دهیم.
+        - paragraph [ref=e70]: علاوه بر پوشش اخبار، ما به عنوان ارائه‌دهنده خدمات زیرساخت هوش مصنوعی، راهکارهای نوآورانه و تخصصی را برای کسب‌وکارها و سازمان‌ها ارائه می‌دهیم. تیم ما متشکل از متخصصان مجرب در حوزه هوش مصنوعی است که آماده ارائه مشاوره و راهکارهای عملی برای پیاده‌سازی پروژه‌های هوش مصنوعی هستند.
+        - link "خدمات ما" [ref=e73] [cursor=pointer]:
+          - /url: https://novinaihub.ir/index.php/services/
+      - figure [ref=e75]
+  - generic [ref=e77]:
+    - generic [ref=e78]:
+      - paragraph [ref=e79]:
+        - strong [ref=e80]: مزایای هوش مصنوعی
+      - heading "تحول دیجیتال با هوش مصنوعی" [level=2] [ref=e81]
+      - paragraph [ref=e82]: هوش مصنوعی با قابلیت‌های منحصر به فرد خود، تحولی شگرف در زندگی و کسب‌وکار ایجاد کرده است. از خودکارسازی فرآیندها تا تحلیل داده‌های پیچیده، هوش مصنوعی راه‌حل‌های نوآورانه ارائه می‌دهد.
+    - generic [ref=e83]:
+      - generic [ref=e84]:
+        - figure [ref=e85]
+        - heading "خودکارسازی هوشمند" [level=2] [ref=e86]
+        - paragraph [ref=e87]: هوش مصنوعی با خودکارسازی فرآیندها، بهره‌وری را افزایش داده و خطاهای انسانی را کاهش می‌دهد. این فناوری قادر به انجام وظایف تکراری و پیچیده با دقت و سرعت بالا است.
+      - generic [ref=e88]:
+        - figure [ref=e89]
+        - heading "تحلیل داده‌های پیشرفته" [level=2] [ref=e90]
+        - paragraph [ref=e91]: هوش مصنوعی قادر به پردازش و تحلیل حجم عظیمی از داده‌ها است. این قابلیت به سازمان‌ها کمک می‌کند تا الگوها و روندهای پنهان را کشف کرده و تصمیمات آگاهانه‌تری اتخاذ کنند.
+      - generic [ref=e92]:
+        - figure [ref=e93]
+        - heading "شخصی‌سازی هوشمند" [level=2] [ref=e94]
+        - paragraph [ref=e95]: هوش مصنوعی با یادگیری از رفتار کاربران، تجربه‌های شخصی‌سازی شده ارائه می‌دهد. این قابلیت در بهبود رضایت مشتری و افزایش تعامل مؤثر است.
+    - generic [ref=e96]:
+      - generic [ref=e97]:
+        - figure [ref=e98]
+        - heading "پیش‌بینی و پیش‌گیری" [level=2] [ref=e99]
+        - paragraph [ref=e100]: هوش مصنوعی با تحلیل الگوها و روندها، قادر به پیش‌بینی رویدادها و پیش‌گیری از مشکلات احتمالی است. این قابلیت در بهینه‌سازی فرآیندها و کاهش ریسک‌ها مؤثر است.
+      - generic [ref=e101]:
+        - figure [ref=e102]
+        - heading "نوآوری و خلاقیت" [level=2] [ref=e103]
+        - paragraph [ref=e104]: هوش مصنوعی با ارائه راه‌حل‌های نوآورانه، به سازمان‌ها کمک می‌کند تا محصولات و خدمات جدیدی خلق کنند. این فناوری در توسعه کسب‌وکار و رقابت مؤثر است.
+      - generic [ref=e105]:
+        - figure [ref=e106]
+        - heading "بهینه‌سازی منابع" [level=2] [ref=e107]
+        - paragraph [ref=e108]: هوش مصنوعی با بهینه‌سازی استفاده از منابع، به کاهش هزینه‌ها و افزایش بهره‌وری کمک می‌کند. این فناوری در مدیریت منابع انسانی و مالی مؤثر است.
+  - generic [ref=e113]:
+    - generic [ref=e114]:
+      - heading "مشاوره تخصصی زیرساخت هوش مصنوعی" [level=2] [ref=e115]
+      - paragraph [ref=e116]: تیم متخصص ما با سال‌ها تجربه در طراحی و پیاده‌سازی زیرساخت‌های هوش مصنوعی، آماده ارائه مشاوره و راهکارهای عملی برای سازمان‌ها و کسب‌وکارها است. از طراحی معماری تا پیاده‌سازی و بهینه‌سازی، همراه شما هستیم.
+      - generic [ref=e119] [cursor=pointer]: مشاوره رایگان
+    - generic [ref=e120]:
+      - generic [ref=e121]:
+        - generic [ref=e122]:
+          - figure [ref=e123]:
+            - img "پروژه‌های هوش مصنوعی" [ref=e124]
+          - paragraph [ref=e125]: 150+
+          - paragraph [ref=e126]: پروژه‌های هوش مصنوعی
+        - generic [ref=e127]:
+          - figure [ref=e128]:
+            - img "متخصصان هوش مصنوعی" [ref=e129]
+          - paragraph [ref=e130]: 50+
+          - paragraph [ref=e131]: متخصصان هوش مصنوعی
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - figure [ref=e134]:
+            - img "زیرساخت‌های پیاده‌سازی شده" [ref=e135]
+          - paragraph [ref=e136]: 80+
+          - paragraph [ref=e137]: زیرساخت‌های پیاده‌سازی شده
+        - generic [ref=e138]:
+          - figure [ref=e139]:
+            - img "مشتریان راضی" [ref=e140]
+          - paragraph [ref=e141]: 120+
+          - paragraph [ref=e142]: مشتریان راضی
+  - generic [ref=e143]:
+    - generic [ref=e144]:
+      - paragraph [ref=e145]:
+        - strong [ref=e146]: AI News & مقالات
+      - heading "آخرین مقالات و اخبار" [level=1] [ref=e147]
+      - paragraph [ref=e148]:
+        - strong [ref=e149]: با آخرین پیشرفت ها و بینش های هوش مصنوعی به روز باشید. مقالات و اخبار انتخاب شده ما را کاوش کنید.
+      - paragraph
+    - list [ref=e152]:
+      - listitem [ref=e153]:
+        - generic [ref=e154]:
+          - figure [ref=e156]:
+            - link "تأثیر هوش مصنوعی بر مشاغل و بازار کار" [ref=e157] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/06/30/ai-future-jobs/
+              - img "تأثیر هوش مصنوعی بر مشاغل و بازار کار" [ref=e158] [cursor=pointer]
+          - heading "تأثیر هوش مصنوعی بر مشاغل و بازار کار" [level=4] [ref=e160]:
+            - link "تأثیر هوش مصنوعی بر مشاغل و بازار کار" [ref=e161] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/06/30/ai-future-jobs/
+      - listitem [ref=e162]:
+        - generic [ref=e163]:
+          - figure [ref=e165]:
+            - link "معایب هوش مصنوعی در زندگی مدرن" [ref=e166] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/06/13/ai-challenges-modern-life/
+              - img "معایب هوش مصنوعی در زندگی مدرن" [ref=e167] [cursor=pointer]
+          - heading "معایب هوش مصنوعی در زندگی مدرن" [level=4] [ref=e169]:
+            - link "معایب هوش مصنوعی در زندگی مدرن" [ref=e170] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/06/13/ai-challenges-modern-life/
+      - listitem [ref=e171]:
+        - generic [ref=e172]:
+          - figure [ref=e174]:
+            - link "Huawei Supernode 384 چه تاثیری در بازار هوش مصنوعی دارد" [ref=e175] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/06/13/huawei-supernode-384-ai-impact/
+              - img "Huawei Supernode 384 چه تاثیری در بازار هوش مصنوعی دارد" [ref=e176] [cursor=pointer]
+          - heading "Huawei Supernode 384 چه تاثیری در بازار هوش مصنوعی دارد" [level=4] [ref=e178]:
+            - link "Huawei Supernode 384 چه تاثیری در بازار هوش مصنوعی دارد" [ref=e179] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/06/13/huawei-supernode-384-ai-impact/
+  - contentinfo [ref=e180]:
+    - generic [ref=e182]:
+      - generic [ref=e183]:
+        - heading "هوش نوین" [level=2] [ref=e184]
+        - list [ref=e185]:
+          - listitem [ref=e186]:
+            - link "خانه" [ref=e187] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e188]:
+            - link "درباره هوش نوین" [ref=e189] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e190]:
+            - link "خدمات هوش نوین" [ref=e191] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e192]:
+            - link "مقالات هوش نوین" [ref=e193] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e194]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e195] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e196]:
+        - heading "تماس با ما" [level=2] [ref=e197]
+        - generic [ref=e198]:
+          - figure [ref=e199]
+          - paragraph [ref=e200]: novinaihub@gmail.com
+        - generic [ref=e201]:
+          - figure [ref=e202]
+          - paragraph [ref=e203]: "09386877087"
+        - list [ref=e204]:
+          - listitem [ref=e205]:
+            - link "Facebook" [ref=e206] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e207] [cursor=pointer]
+              - generic [ref=e209] [cursor=pointer]: Facebook
+          - listitem [ref=e210]:
+            - link "Instagram" [ref=e211] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e212] [cursor=pointer]
+              - generic [ref=e214] [cursor=pointer]: Instagram
+          - listitem [ref=e215]:
+            - link "LinkedIn" [ref=e216] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e217] [cursor=pointer]
+              - generic [ref=e219] [cursor=pointer]: LinkedIn
+          - listitem [ref=e220]:
+            - link "YouTube" [ref=e221] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e222] [cursor=pointer]
+              - generic [ref=e224] [cursor=pointer]: YouTube
+    - generic [ref=e226]:
+      - generic [ref=e227]:
+        - paragraph [ref=e228]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e229]:
+          - list [ref=e234]:
+            - listitem [ref=e235]:
+              - link "صفحه اصلی" [ref=e236] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e237] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e238]:
+              - link "درباره ما" [ref=e239] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e240] [cursor=pointer]: درباره ما
+            - listitem [ref=e241]:
+              - link "خدمات هوش نوین" [ref=e242] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e243] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e244]:
+              - link "آخرین اخبار" [ref=e245] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e246] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e247]:
+              - link "مقالات" [ref=e248] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e249] [cursor=pointer]: مقالات
+      - paragraph: 
+```

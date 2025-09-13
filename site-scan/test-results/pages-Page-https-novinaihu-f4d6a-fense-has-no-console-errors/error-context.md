@@ -1,0 +1,208 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "PiLogic جذب 4 میلیون دلار سرمایه برای توسعه فناوری هوش مصنوعی در هوافضا و دفاع" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 578" [ref=e60]
+        - generic [ref=e61]:
+          - heading "مقدمه" [level=2] [ref=e62]
+          - paragraph [ref=e63]:
+            - generic [ref=e64]: PiLogic
+            - text: ، نوآور در حوزه هوش مصنوعی در هوافضا و دفاع، اخیراً توانست
+            - generic [ref=e65]: ۴ میلیون دلار سرمایه اولیه
+            - text: جذب کند تا حضور خود را در بازارهای اصلی توسعه دهد و مدل‌های پیشرفته هوش مصنوعی خود را بهبود بخشد. این مرحله سرمایه‌گذاری توسط Scout Ventures و Seraphim Space رهبری شده و حمایت‌های دیگری از سوی Sovereign Capital، Flex Capital، FN Fund و فرشته سرمایه‌گذار Gokul Rajaram دریافت شده است. در این مقاله، به بررسی جزئیات این جذب سرمایه و تاثیر آن بر توسعه فناوری هوش مصنوعی در هوافضا و دفاع خواهیم پرداخت.
+          - heading "حمایت‌های مالی و اهمیت سرمایه‌گذاری" [level=2] [ref=e66]
+          - paragraph [ref=e67]:
+            - text: جذب
+            - generic [ref=e68]: ۴ میلیون دلار سرمایه اولیه
+            - text: برای
+            - generic [ref=e69]: PiLogic
+            - text: یک گام کلیدی در مسیر رشد و توسعه فناوری‌های دقیق هوش مصنوعی محسوب می‌شود. این سرمایه‌گذاری به شرکت امکان می‌دهد تا منابع لازم برای گسترش تیم تحقیق و توسعه، افزایش ظرفیت‌های فنی و نفوذ عمیق‌تر در بازارهای هوافضا و دفاع را فراهم نماید. این حمایت مالی از سوی سرمایه‌گذاران معروف حوزه فضا و فناوری، نشان‌دهنده اعتماد بازار به قابلیت‌های
+            - generic [ref=e70]: PiLogic
+            - text: در ارائه راهکارهای نوین و دقیق هوش مصنوعی است.
+          - heading "تاثیر توسعه فناوری هوش مصنوعی PiLogic در صنایع هوافضا و دفاع" [level=2] [ref=e71]:
+            - text: تاثیر توسعه فناوری هوش مصنوعی
+            - link "PiLogic" [ref=e72] [cursor=pointer]:
+              - /url: https://www.pilogic.ai/
+            - text: در صنایع هوافضا و دفاع
+          - paragraph [ref=e73]:
+            - text: با استفاده از این سرمایه،
+            - generic [ref=e74]: PiLogic
+            - text: قادر خواهد بود مدل‌های هوش مصنوعی خود را به سطح بالاتری ارتقا دهد که در صنایع هوافضا و دفاع کاربرد گسترده‌ای دارند. دقت بالاتر، سرعت پردازش بهتر و کارایی بیشتر از جمله قابلیت‌هایی است که مدل‌های هوش مصنوعی
+            - generic [ref=e75]: PiLogic
+            - text: فراهم خواهند کرد. این پیشرفت‌ها به بهینه‌سازی عملیات، کاهش هزینه‌ها و افزایش اطمینان‌پذیری در پروژه‌های هوافضایی و دفاعی منجر می‌شود و به همین دلیل است که جذب
+            - generic [ref=e76]: ۴ میلیون دلار سرمایه اولیه
+            - text: برای رشد این شرکت بسیار حیاتی است.
+          - heading "نتیجه‌گیری" [level=2] [ref=e77]
+          - paragraph [ref=e78]:
+            - text: در نهایت، جذب
+            - generic [ref=e79]: ۴ میلیون دلار سرمایه اولیه
+            - text: توسط
+            - generic [ref=e80]: PiLogic
+            - text: یک نقطه عطف مهم در توسعه فناوری‌های هوش مصنوعی در هوافضا و دفاع به شمار می‌آید. این سرمایه‌گذاری نه تنها به توسعه و بهبود مدل‌های هوش مصنوعی کمک می‌کند، بلکه نشان‌دهنده اعتماد سرمایه‌گذاران شناخته‌شده به چشم‌انداز و پتانسیل این شرکت است. انتظار می‌رود فعالیت‌های
+            - generic [ref=e81]: PiLogic
+            - text: پس از این مرحله با شتاب بیشتری ادامه یابد و نوآوری‌های بیشتری در این حوزه ارائه شود که تاثیرات مثبت گسترده‌ای بر صنعت هوافضا و دفاع خواهد داشت.
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - strong [ref=e84]: AI Categories
+            - text: ":"
+          - link "اخبار-هوش مصنوعی" [ref=e85] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/ai-news/
+      - generic [ref=e87]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e88]: دیدگاهتان را بنویسید
+        - generic [ref=e89]:
+          - paragraph [ref=e90]:
+            - generic [ref=e91]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e92]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e93]: "*"
+          - paragraph [ref=e94]:
+            - generic [ref=e95]:
+              - text: دیدگاه
+              - generic [ref=e96]: "*"
+            - textbox "دیدگاه *" [ref=e97]
+          - paragraph [ref=e98]:
+            - generic [ref=e99]:
+              - text: نام
+              - generic [ref=e100]: "*"
+            - textbox "نام *" [ref=e101]
+          - paragraph [ref=e102]:
+            - generic [ref=e103]:
+              - text: ایمیل
+              - generic [ref=e104]: "*"
+            - textbox "ایمیل *" [ref=e105]
+          - paragraph [ref=e106]:
+            - generic [ref=e107]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e108]
+          - paragraph [ref=e109]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e110]
+            - generic [ref=e111]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e112]:
+            - button "فرستادن دیدگاه" [ref=e113] [cursor=pointer]
+  - contentinfo [ref=e114]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - heading "هوش نوین" [level=2] [ref=e118]
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - link "خانه" [ref=e121] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e122]:
+            - link "درباره هوش نوین" [ref=e123] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e124]:
+            - link "خدمات هوش نوین" [ref=e125] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e126]:
+            - link "مقالات هوش نوین" [ref=e127] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e128]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e129] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e130]:
+        - heading "تماس با ما" [level=2] [ref=e131]
+        - generic [ref=e132]:
+          - figure [ref=e133]
+          - paragraph [ref=e134]: novinaihub@gmail.com
+        - generic [ref=e135]:
+          - figure [ref=e136]
+          - paragraph [ref=e137]: "09386877087"
+        - list [ref=e138]:
+          - listitem [ref=e139]:
+            - link "Facebook" [ref=e140] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e141] [cursor=pointer]
+              - generic [ref=e143] [cursor=pointer]: Facebook
+          - listitem [ref=e144]:
+            - link "Instagram" [ref=e145] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e146] [cursor=pointer]
+              - generic [ref=e148] [cursor=pointer]: Instagram
+          - listitem [ref=e149]:
+            - link "LinkedIn" [ref=e150] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e151] [cursor=pointer]
+              - generic [ref=e153] [cursor=pointer]: LinkedIn
+          - listitem [ref=e154]:
+            - link "YouTube" [ref=e155] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e156] [cursor=pointer]
+              - generic [ref=e158] [cursor=pointer]: YouTube
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - paragraph [ref=e162]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e163]:
+          - list [ref=e168]:
+            - listitem [ref=e169]:
+              - link "صفحه اصلی" [ref=e170] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e171] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e172]:
+              - link "درباره ما" [ref=e173] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e174] [cursor=pointer]: درباره ما
+            - listitem [ref=e175]:
+              - link "خدمات هوش نوین" [ref=e176] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e177] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e178]:
+              - link "آخرین اخبار" [ref=e179] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e180] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e181]:
+              - link "مقالات" [ref=e182] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e183] [cursor=pointer]: مقالات
+      - paragraph: 
+```

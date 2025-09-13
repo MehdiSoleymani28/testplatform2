@@ -1,0 +1,275 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "بهترین ابزارهای هوش مصنوعی رایگان برای کار و توسعه" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 602" [ref=e60]
+        - generic [ref=e61]:
+          - 'heading "ابزارهای هوش مصنوعی رایگان: لیست بهترین گزینه‌ها برای استفاده" [level=2] [ref=e62]'
+          - paragraph [ref=e63]:
+            - text: در دنیای امروز،
+            - generic [ref=e64]: ابزارهای هوش مصنوعی رایگان
+            - text: به یکی از ارکان اصلی در بهبود فرآیندهای کاری، خلاقیت و بهره‌وری تبدیل شده‌اند. این ابزارها با استفاده از فناوری‌های پیشرفته مانند پردازش زبان طبیعی، یادگیری ماشین و بینایی کامپیوتر، امکاناتی را در اختیار کاربران قرار می‌دهند که قبلاً تنها در دسترس شرکت‌های بزرگ بود. از تولید محتوا تا تحلیل داده‌ها، این ابزارها می‌توانند در زمان و هزینه صرفه‌جویی کنند.
+          - paragraph [ref=e65]:
+            - text: در این مقاله، به معرفی
+            - generic [ref=e66]: لیستی از بهترین ابزارهای هوش مصنوعی رایگان
+            - text: می‌پردازیم که می‌توانند برای اهداف مختلف مورد استفاده قرار گیرند. هر یک از این ابزارها ویژگی‌های منحصر به فردی دارند که آن‌ها را از سایر گزینه‌ها متمایز می‌کند. با ما همراه باشید تا با این ابزارها آشنا شوید و بهترین گزینه را برای نیازهای خود انتخاب کنید.
+          - heading "۱. ابزارهای تولید محتوای رایگان با هوش مصنوعی" [level=2] [ref=e67]
+          - paragraph [ref=e68]:
+            - text: یکی از پرکاربردترین حوزه‌های
+            - generic [ref=e69]: ابزارهای هوش مصنوعی رایگان
+            - text: "، تولید محتوا است. این ابزارها به کاربران کمک می‌کنند تا مقالات، پست‌های وبلاگ، توصیف محصولات و حتی کدهای برنامه‌نویسی را به سرعت ایجاد کنند. برخی از بهترین گزینه‌ها در این زمینه عبارتند از:"
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - generic [ref=e72]: ChatGPT (نسخه رایگان)
+              - text: ": یک مدل گفتگوی پیشرفته که می‌تواند در نوشتن محتوا، ترجمه و پاسخ به سوالات کمک کند."
+            - listitem [ref=e73]:
+              - link "Copy.ai" [ref=e74] [cursor=pointer]:
+                - /url: http://Copy.ai
+                - generic [ref=e75] [cursor=pointer]: Copy.ai
+              - text: ": ابزاری عالی برای تولید متن‌های تبلیغاتی، ایده‌پردازی و بازنویسی محتوا."
+            - listitem [ref=e76]:
+              - link "Writesonic" [ref=e77] [cursor=pointer]:
+                - /url: https://writesonic.com/
+                - generic [ref=e78] [cursor=pointer]: Writesonic
+              - text: ": این پلتفرم به کاربران کمک می‌کند تا محتوای سئو بهینه و جذاب ایجاد کنند."
+          - heading "چرا از ابزارهای تولید محتوای هوش مصنوعی استفاده کنیم؟" [level=3] [ref=e79]
+          - paragraph [ref=e80]: استفاده از این ابزارها نه‌تنها سرعت تولید محتوا را افزایش می‌دهد، بلکه کیفیت آن را نیز بهبود می‌بخشد. بسیاری از آن‌ها قابلیت‌های شخصی‌سازی دارند که به کاربران اجازه می‌دهد سبک و لحن مورد نظر خود را انتخاب کنند.
+          - heading "۲. ابزارهای ویرایش تصویر و طراحی رایگان با هوش مصنوعی" [level=2] [ref=e81]
+          - paragraph [ref=e82]: "هوش مصنوعی در حوزه طراحی و ویرایش تصاویر نیز تحول بزرگی ایجاد کرده است. ابزارهای رایگان بسیاری وجود دارند که با استفاده از الگوریتم‌های هوش مصنوعی، فرآیند ویرایش تصاویر را ساده‌تر و حرفه‌ای‌تر کرده‌اند. برخی از این ابزارها شامل:"
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - generic [ref=e85]: Canva (نسخه رایگان)
+              - text: ": یک پلتفرم طراحی همه‌کاره که از هوش مصنوعی برای پیشنهاد طرح‌ها و افکت‌ها استفاده می‌کند."
+            - listitem [ref=e86]:
+              - generic [ref=e87]: Remove.bg
+              - text: ": ابزاری برای حذف پس‌زمینه تصاویر به صورت خودکار."
+            - listitem [ref=e88]:
+              - generic [ref=e89]: Deep Dream Generator
+              - text: ": برای ایجاد آثار هنری دیجیتال با استفاده از شبکه‌های عصبی."
+          - heading "مزایای استفاده از ابزارهای طراحی هوش مصنوعی" [level=3] [ref=e90]
+          - paragraph [ref=e91]: این ابزارها حتی برای افرادی که دانش طراحی ندارند نیز قابل استفاده هستند و به آن‌ها امکان خلق تصاویر حرفه‌ای را می‌دهند. همچنین، بسیاری از آن‌ها به صورت آنلاین در دسترس هستند و نیاز به نصب نرم‌افزارهای سنگین ندارند.
+          - heading "۳. ابزارهای تبدیل صدا به متن رایگان با هوش مصنوعی" [level=2] [ref=e92]
+          - paragraph [ref=e93]:
+            - text: تبدیل گفتار به متن یکی دیگر از کاربردهای جذاب
+            - generic [ref=e94]: ابزارهای هوش مصنوعی رایگان
+            - text: "است. این ابزارها برای مصاحبه‌ها، جلسات و تولید محتوای صوتی بسیار مفید هستند. برخی از گزینه‌های محبوب عبارتند از:"
+          - list [ref=e95]:
+            - listitem [ref=e96]:
+              - generic [ref=e97]: Google Docs Voice Typing
+              - text: ": امکان تایپ صوتی با دقت بالا را فراهم می‌کند."
+            - listitem [ref=e98]:
+              - generic [ref=e99]: Otter.ai
+              - text: ": یک ابزار پیشرفته برای ضبط و ترجمه خودکار گفتار به متن."
+            - listitem [ref=e100]:
+              - generic [ref=e101]: Speechnotes
+              - text: ": یک ابزار ساده و کاربردی برای تبدیل صوت به نوشتار."
+          - heading "کاربردهای ابزارهای تبدیل صدا به متن" [level=3] [ref=e102]
+          - paragraph [ref=e103]: این ابزارها برای روزنامه‌نگاران، دانشجویان و کسب‌وکارهایی که نیاز به مستندسازی گفتار دارند، بسیار مفید هستند. همچنین، برخی از آن‌ها قابلیت شناسایی چندین زبان را دارند.
+          - heading "۴. ابزارهای تحلیل داده و پیش‌بینی رایگان با هوش مصنوعی" [level=2] [ref=e104]
+          - paragraph [ref=e105]:
+            - text: تحلیل داده‌ها و پیش‌بینی روندها از دیگر حوزه‌هایی است که
+            - generic [ref=e106]: ابزارهای هوش مصنوعی رایگان
+            - text: "در آن نقش مهمی ایفا می‌کنند. این ابزارها به کاربران کمک می‌کنند تا داده‌های خود را بهتر درک کنند و تصمیمات هوشمندانه‌تری بگیرند. برخی از این ابزارها عبارتند از:"
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - generic [ref=e109]: Google Colab
+              - text: ": یک محیط برنامه‌نویسی رایگان که از یادگیری ماشین پشتیبانی می‌کند."
+            - listitem [ref=e110]:
+              - generic [ref=e111]: IBM Watson Studio (نسخه رایگان)
+              - text: ": برای ساخت مدل‌های هوش مصنوعی و تحلیل داده‌ها."
+            - listitem [ref=e112]:
+              - generic [ref=e113]: RapidMiner
+              - text: ": ابزاری برای داده‌کاوی و پیش‌بینی‌های تجاری."
+          - heading "چرا تحلیل داده با هوش مصنوعی مهم است؟" [level=3] [ref=e114]
+          - paragraph [ref=e115]: این ابزارها به سازمان‌ها و افراد کمک می‌کنند تا الگوهای پنهان در داده‌ها را کشف کنند و از آن‌ها برای بهبود استراتژی‌های خود استفاده نمایند. همچنین، بسیاری از آن‌ها نیازی به دانش عمیق برنامه‌نویسی ندارند.
+          - 'heading "نتیجه‌گیری: انتخاب بهترین ابزارهای هوش مصنوعی رایگان" [level=2] [ref=e116]'
+          - paragraph [ref=e117]:
+            - text: در این مقاله، به بررسی
+            - generic [ref=e118]: لیست ابزارهای رایگان با استفاده از هوش مصنوعی
+            - text: پرداختیم که می‌توانند در حوزه‌های مختلفی مانند تولید محتوا، طراحی، تبدیل صدا به متن و تحلیل داده مورد استفاده قرار گیرند. هر یک از این ابزارها مزایای منحصر به فردی دارند و می‌توانند بسته به نیاز کاربران، گزینه‌های مناسبی باشند.
+          - paragraph [ref=e119]:
+            - text: استفاده از
+            - generic [ref=e120]: ابزارهای هوش مصنوعی رایگان
+            - text: نه‌تنها هزینه‌ها را کاهش می‌دهد، بلکه بهره‌وری و خلاقیت را نیز افزایش می‌دهد. توصیه می‌کنیم با توجه به نیازهای خود، چند مورد از این ابزارها را امتحان کنید و بهترین گزینه را برای کارهای روزمره یا پروژه‌های حرفه‌ای انتخاب نمایید.
+          - paragraph [ref=e121]: آیا شما هم از ابزارهای هوش مصنوعی رایگان استفاده کرده‌اید؟ تجربیات خود را با ما به اشتراک بگذارید!
+          - list [ref=e122]:
+            - listitem [ref=e123]:
+              - link "تأثیر هوش مصنوعی بر مشاغل و بازار کار" [ref=e124] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/30/ai-future-jobs/
+            - listitem [ref=e125]:
+              - link "معایب هوش مصنوعی در زندگی مدرن" [ref=e126] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/13/ai-challenges-modern-life/
+            - listitem [ref=e127]:
+              - link "آموزش مقدماتی هوش مصنوعی برای شروع یادگیری AI" [ref=e128] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/09/ai-basics-guide/
+            - listitem [ref=e129]:
+              - link "بهترین هوش مصنوعی تولید عکس" [ref=e130] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/06/best-ai-image-generator/
+            - listitem [ref=e131]:
+              - link "ساخت عکس با هوش مصنوعی بهترین روش ها و ابزارها" [ref=e132] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/05/ai-image-generation-tools/
+        - generic [ref=e133]:
+          - generic [ref=e134]:
+            - strong [ref=e135]: AI Categories
+            - text: ":"
+          - link "مقالات" [ref=e136] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/articles/
+      - generic [ref=e138]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e139]: دیدگاهتان را بنویسید
+        - generic [ref=e140]:
+          - paragraph [ref=e141]:
+            - generic [ref=e142]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e143]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e144]: "*"
+          - paragraph [ref=e145]:
+            - generic [ref=e146]:
+              - text: دیدگاه
+              - generic [ref=e147]: "*"
+            - textbox "دیدگاه *" [ref=e148]
+          - paragraph [ref=e149]:
+            - generic [ref=e150]:
+              - text: نام
+              - generic [ref=e151]: "*"
+            - textbox "نام *" [ref=e152]
+          - paragraph [ref=e153]:
+            - generic [ref=e154]:
+              - text: ایمیل
+              - generic [ref=e155]: "*"
+            - textbox "ایمیل *" [ref=e156]
+          - paragraph [ref=e157]:
+            - generic [ref=e158]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e159]
+          - paragraph [ref=e160]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e161]
+            - generic [ref=e162]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e163]:
+            - button "فرستادن دیدگاه" [ref=e164] [cursor=pointer]
+  - contentinfo [ref=e165]:
+    - generic [ref=e167]:
+      - generic [ref=e168]:
+        - heading "هوش نوین" [level=2] [ref=e169]
+        - list [ref=e170]:
+          - listitem [ref=e171]:
+            - link "خانه" [ref=e172] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e173]:
+            - link "درباره هوش نوین" [ref=e174] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e175]:
+            - link "خدمات هوش نوین" [ref=e176] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e177]:
+            - link "مقالات هوش نوین" [ref=e178] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e179]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e180] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e181]:
+        - heading "تماس با ما" [level=2] [ref=e182]
+        - generic [ref=e183]:
+          - figure [ref=e184]
+          - paragraph [ref=e185]: novinaihub@gmail.com
+        - generic [ref=e186]:
+          - figure [ref=e187]
+          - paragraph [ref=e188]: "09386877087"
+        - list [ref=e189]:
+          - listitem [ref=e190]:
+            - link "Facebook" [ref=e191] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e192] [cursor=pointer]
+              - generic [ref=e194] [cursor=pointer]: Facebook
+          - listitem [ref=e195]:
+            - link "Instagram" [ref=e196] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e197] [cursor=pointer]
+              - generic [ref=e199] [cursor=pointer]: Instagram
+          - listitem [ref=e200]:
+            - link "LinkedIn" [ref=e201] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e202] [cursor=pointer]
+              - generic [ref=e204] [cursor=pointer]: LinkedIn
+          - listitem [ref=e205]:
+            - link "YouTube" [ref=e206] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e207] [cursor=pointer]
+              - generic [ref=e209] [cursor=pointer]: YouTube
+    - generic [ref=e211]:
+      - generic [ref=e212]:
+        - paragraph [ref=e213]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e214]:
+          - list [ref=e219]:
+            - listitem [ref=e220]:
+              - link "صفحه اصلی" [ref=e221] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e222] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e223]:
+              - link "درباره ما" [ref=e224] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e225] [cursor=pointer]: درباره ما
+            - listitem [ref=e226]:
+              - link "خدمات هوش نوین" [ref=e227] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e228] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e229]:
+              - link "آخرین اخبار" [ref=e230] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e231] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e232]:
+              - link "مقالات" [ref=e233] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e234] [cursor=pointer]: مقالات
+      - paragraph: 
+```

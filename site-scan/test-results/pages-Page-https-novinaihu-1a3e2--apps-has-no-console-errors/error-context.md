@@ -1,0 +1,234 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "بهترین اپلیکیشن‌های هوش مصنوعی" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 581" [ref=e60]
+        - generic [ref=e61]:
+          - heading "بهترین اپلیکیشن‌های هوش مصنوعی برای موبایل" [level=3] [ref=e62]
+          - paragraph [ref=e63]:
+            - text: د
+            - strong [ref=e64]:
+              - text: ر دنیای امروز،
+              - link "هوش مصنوعی" [ref=e65] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/05/28/ai-artificial-intelligence/
+              - text: به یکی از مهم‌ترین فناوری‌های عصر حاضر تبدیل شده است. با گسترش استفاده از گوشی‌های هوشمند، اپلیکیشن‌های هوش مصنوعی نیز محبوبیت زیادی پیدا کرده‌اند. این برنامه‌ها با قابلیت‌های منحصر به فرد خود، زندگی روزمره را ساده‌تر و هوشمندانه‌تر می‌کنند. در این مقاله، به معرفی بهترین اپلیکیشن‌های هوش مصنوعی می‌پردازیم که می‌توانند تجربه کاربری شما را متحول کنند.
+          - paragraph [ref=e66]:
+            - strong [ref=e67]:
+              - text: هدف از این مقاله، ارائه لیستی جامع از
+              - generic [ref=e68]: اپلیکیشن‌های موبایل هوش مصنوعی
+              - text: است که در حوزه‌های مختلف مانند پردازش تصویر، ترجمه، دستیار صوتی و تولید محتوا فعالیت می‌کنند. با مطالعه این مطلب، می‌توانید بهترین گزینه‌ها را برای نیازهای خود انتخاب کنید.
+          - heading "۱. اپلیکیشن‌های هوش مصنوعی برای پردازش تصویر و ویدئو" [level=3] [ref=e69]
+          - paragraph [ref=e70]:
+            - strong [ref=e71]: یکی از پرکاربردترین حوزه‌های هوش مصنوعی، پردازش تصویر و ویدئو است. اپلیکیشن‌هایی مانند Prisma و Remini با استفاده از الگوریتم‌های پیشرفته، تصاویر شما را به آثار هنری تبدیل می‌کنند. این برنامه‌ها با قابلیت‌هایی مانند بهبود کیفیت عکس، حذف نویز و افزودن افکت‌های خلاقانه، تجربه‌ای منحصر به فرد ارائه می‌دهند.
+          - 'heading "Prisma: تبدیل عکس‌ها به نقاشی‌های هنری" [level=4] [ref=e72]'
+          - paragraph [ref=e73]:
+            - strong [ref=e74]:
+              - text: این اپلیکیشن با استفاده از شبکه‌های عصبی، عکس‌های معمولی را به سبک نقاشان معروف مانند ون گوگ یا پیکاسو تبدیل می‌کند. اگر به دنبال یک ابزار خلاقانه برای ویرایش تصاویر هستید، Prisma یکی از
+              - generic [ref=e75]: بهترین اپلیکیشن‌های هوش مصنوعی
+              - text: در این زمینه است.
+          - heading "۲. دستیارهای صوتی مبتنی بر هوش مصنوعی" [level=3] [ref=e76]
+          - paragraph [ref=e77]:
+            - strong [ref=e78]: دستیارهای صوتی مانند Google Assistant و Siri سال‌هاست که بخشی از زندگی روزمره ما شده‌اند. اما اپلیکیشن‌های جدیدتر مانند Replika با هوش مصنوعی پیشرفته‌تر، امکان گفتگوی عمیق‌تر و شخصی‌سازی شده را فراهم می‌کنند.
+          - 'heading "Replika: دوست هوشمند شما" [level=4] [ref=e79]'
+          - paragraph [ref=e80]:
+            - strong [ref=e81]: این اپلیکیشن با یادگیری رفتار و گفتار کاربر، به یک همراه همیشگی تبدیل می‌شود. Replika نه تنها می‌تواند به سوالات شما پاسخ دهد، بلکه قادر است احساسات شما را درک کرده و مشاوره‌های مفیدی ارائه کند.
+          - heading "۳. اپلیکیشن‌های ترجمه هوشمند" [level=3] [ref=e82]
+          - paragraph [ref=e83]:
+            - strong [ref=e84]:
+              - text: اگر به دنبال یک مترجم قوی هستید، Google Translate و
+              - link "DeepL" [ref=e85] [cursor=pointer]:
+                - /url: https://www.deepl.com/en/translator
+              - text: از جمله
+              - generic [ref=e86]: اپلیکیشن‌های موبایل هوش مصنوعی
+              - text: هستند که با دقت بالا متون را ترجمه می‌کنند. این برنامه‌ها حتی قادر به ترجمه همزمان مکالمات و تشخیص دستخط هستند.
+          - heading "کاربردهای پیشرفته ترجمه هوشمند" [level=4] [ref=e87]
+          - paragraph [ref=e88]:
+            - strong [ref=e89]: برخی از این اپلیکیشن‌ها مانند iTranslate امکان ترجمه آفلاین را نیز فراهم می‌کنند که برای مسافران بسیار کاربردی است. همچنین، قابلیت ترجمه متن در تصاویر، این برنامه‌ها را به ابزاری ضروری تبدیل کرده است.
+          - heading "۴. ابزارهای تولید محتوای هوشمند" [level=3] [ref=e90]
+          - paragraph [ref=e91]:
+            - strong [ref=e92]: برای تولیدکنندگان محتوا، اپلیکیشن‌هایی مانند ChatGPT و Canva با استفاده از هوش مصنوعی، فرآیند ایجاد محتوا را سریع‌تر و حرفه‌ای‌تر کرده‌اند. این ابزارها می‌توانند در نوشتن مقالات، طراحی گرافیک و حتی تولید ایده‌های جدید کمک کنند.
+          - 'heading "Canva: طراحی آسان با هوش مصنوعی" [level=4] [ref=e93]'
+          - paragraph [ref=e94]:
+            - strong [ref=e95]: این پلتفرم با ویژگی‌هایی مانند طراحی خودکار و پیشنهاد طرح‌های هوشمند، به کاربران کمک می‌کند حتی بدون دانش طراحی، محتوای جذاب ایجاد کنند. Canva یکی از بهترین اپلیکیشن‌های هوش مصنوعی برای خلاقان است.
+          - heading "۵. برنامه‌های مدیریت زمان و بهره‌وری" [level=3] [ref=e96]
+          - paragraph [ref=e97]:
+            - strong [ref=e98]: اپلیکیشن‌هایی مانند Todoist و Notion با استفاده از هوش مصنوعی، به کاربران در سازماندهی کارها و افزایش بهره‌وری کمک می‌کنند. این ابزارها می‌توانند اولویت‌بندی وظایف را به صورت خودکار انجام داده و برنامه‌ریزی روزانه را ساده کنند.
+          - heading "هوش مصنوعی در خدمت مدیریت زمان" [level=4] [ref=e99]
+          - paragraph [ref=e100]:
+            - strong [ref=e101]:
+              - text: با تحلیل رفتار کاربر، این اپلیکیشن‌ها می‌توانند الگوهای کاری را شناسایی کرده و پیشنهادهای شخصی‌سازی شده ارائه دهند. این ویژگی باعث می‌شود تا برنامه‌های مدیریت زمان به یکی از کاربردی‌ترین
+              - generic [ref=e102]: اپلیکیشن‌های موبایل هوش مصنوعی
+              - text: تبدیل شوند.
+          - heading "نتیجه‌گیری" [level=2] [ref=e103]
+          - paragraph [ref=e104]:
+            - strong [ref=e105]: در این مقاله، به بررسی بهترین اپلیکیشن‌های هوش مصنوعی پرداختیم که می‌توانند در جنبه‌های مختلف زندگی مفید باشند. از پردازش تصویر و ترجمه تا تولید محتوا و مدیریت زمان، هوش مصنوعی تحول بزرگی در دنیای اپلیکیشن‌های موبایل ایجاد کرده است.
+          - paragraph [ref=e106]:
+            - strong [ref=e107]:
+              - text: با توجه به تنوع بالای
+              - generic [ref=e108]: اپلیکیشن‌های موبایل هوش مصنوعی
+              - text: ، توصیه می‌شود با توجه به نیازهای خود، بهترین گزینه را انتخاب کنید. این فناوری به سرعت در حال پیشرفت است و در آینده شاهد برنامه‌های هوشمندتر و کارآمدتری خواهیم بود. امیدواریم این لیست به شما در کشف قابلیت‌های جذاب هوش مصنوعی کمک کند.
+        - generic [ref=e109]:
+          - generic [ref=e110]:
+            - strong [ref=e111]: AI Categories
+            - text: ":"
+          - link "مقالات" [ref=e112] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/articles/
+      - generic [ref=e114]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e115]: دیدگاهتان را بنویسید
+        - generic [ref=e116]:
+          - paragraph [ref=e117]:
+            - generic [ref=e118]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e119]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e120]: "*"
+          - paragraph [ref=e121]:
+            - generic [ref=e122]:
+              - text: دیدگاه
+              - generic [ref=e123]: "*"
+            - textbox "دیدگاه *" [ref=e124]
+          - paragraph [ref=e125]:
+            - generic [ref=e126]:
+              - text: نام
+              - generic [ref=e127]: "*"
+            - textbox "نام *" [ref=e128]
+          - paragraph [ref=e129]:
+            - generic [ref=e130]:
+              - text: ایمیل
+              - generic [ref=e131]: "*"
+            - textbox "ایمیل *" [ref=e132]
+          - paragraph [ref=e133]:
+            - generic [ref=e134]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e135]
+          - paragraph [ref=e136]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e137]
+            - generic [ref=e138]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e139]:
+            - button "فرستادن دیدگاه" [ref=e140] [cursor=pointer]
+  - contentinfo [ref=e141]:
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - heading "هوش نوین" [level=2] [ref=e145]
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "خانه" [ref=e148] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e149]:
+            - link "درباره هوش نوین" [ref=e150] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e151]:
+            - link "خدمات هوش نوین" [ref=e152] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e153]:
+            - link "مقالات هوش نوین" [ref=e154] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e155]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e156] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e157]:
+        - heading "تماس با ما" [level=2] [ref=e158]
+        - generic [ref=e159]:
+          - figure [ref=e160]
+          - paragraph [ref=e161]: novinaihub@gmail.com
+        - generic [ref=e162]:
+          - figure [ref=e163]
+          - paragraph [ref=e164]: "09386877087"
+        - list [ref=e165]:
+          - listitem [ref=e166]:
+            - link "Facebook" [ref=e167] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e168] [cursor=pointer]
+              - generic [ref=e170] [cursor=pointer]: Facebook
+          - listitem [ref=e171]:
+            - link "Instagram" [ref=e172] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e173] [cursor=pointer]
+              - generic [ref=e175] [cursor=pointer]: Instagram
+          - listitem [ref=e176]:
+            - link "LinkedIn" [ref=e177] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e178] [cursor=pointer]
+              - generic [ref=e180] [cursor=pointer]: LinkedIn
+          - listitem [ref=e181]:
+            - link "YouTube" [ref=e182] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e183] [cursor=pointer]
+              - generic [ref=e185] [cursor=pointer]: YouTube
+    - generic [ref=e187]:
+      - generic [ref=e188]:
+        - paragraph [ref=e189]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e190]:
+          - list [ref=e195]:
+            - listitem [ref=e196]:
+              - link "صفحه اصلی" [ref=e197] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e198] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e199]:
+              - link "درباره ما" [ref=e200] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e201] [cursor=pointer]: درباره ما
+            - listitem [ref=e202]:
+              - link "خدمات هوش نوین" [ref=e203] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e204] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e205]:
+              - link "آخرین اخبار" [ref=e206] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e207] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e208]:
+              - link "مقالات" [ref=e209] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e210] [cursor=pointer]: مقالات
+      - paragraph: 
+```

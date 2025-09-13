@@ -1,0 +1,486 @@
+{
+  "scannedAt": "2025-09-11T21:07:38.097Z",
+  "baseUrl": "https://novinaihub.ir",
+  "maxPages": 50,
+  "maxDepth": 2,
+  "pages": [
+    {
+      "url": "https://novinaihub.ir",
+      "status": 200,
+      "title": "هوش نوین - معماری هوشمند برای دنیای دیجیتال",
+      "depth": 0,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\home.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/aboutus",
+      "status": 200,
+      "title": "درباره هوش نوین - هوش نوین",
+      "depth": 1,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-aboutus.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/services",
+      "status": 200,
+      "title": "خدمات هوش نوین - هوش نوین",
+      "depth": 1,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-services.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/news",
+      "status": 200,
+      "title": "جدیدترین اخبار هوش مصنوعی - هوش نوین",
+      "depth": 1,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-news.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/ai-article",
+      "status": 200,
+      "title": "مقالات هوش نوین - هوش نوین",
+      "depth": 1,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-ai-article.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/30/ai-future-jobs",
+      "status": 200,
+      "title": "تأثیر هوش مصنوعی بر مشاغل و بازار کار - هوش نوین",
+      "depth": 1,
+      "console": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-30-ai-future-jobs.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/13/ai-challenges-modern-life",
+      "status": 200,
+      "title": "معایب هوش مصنوعی در زندگی مدرن - هوش نوین",
+      "depth": 1,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-13-ai-challenges-modern-life.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/13/huawei-supernode-384-ai-impact",
+      "status": 200,
+      "title": "Huawei Supernode 384 چه تاثیری در بازار هوش مصنوعی دارد - هوش نوین",
+      "depth": 1,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-13-huawei-supernode-384-ai-impact.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/12/google-ai-overview-seo-optimization",
+      "status": 200,
+      "title": "تاثیر Google AI Overview بر سئو و راهکارهای بهینه‌سازی - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-12-google-ai-overview-seo-optimization.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/12/britain-ai-arctic-security",
+      "status": 200,
+      "title": "بریتانیا و هوش مصنوعی برای امنیت آرکتیک خنک - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-12-britain-ai-arctic-security.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/09/aiethics-automationethics-techmorality",
+      "status": 200,
+      "title": "اهمیت اخلاق در اتوماسیون و هوش مصنوعی - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-09-aiethics-automationethics-techmorality.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/09/ai-basics-guide",
+      "status": 200,
+      "title": "آموزش مقدماتی هوش مصنوعی برای شروع یادگیری AI - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-09-ai-basics-guide.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/06/best-ai-image-generator",
+      "status": 200,
+      "title": "بهترین هوش مصنوعی تولید عکس - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-06-best-ai-image-generator.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/05/ai-image-generation-tools",
+      "status": 200,
+      "title": "ساخت عکس با هوش مصنوعی بهترین روش ها و ابزارها - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-05-ai-image-generation-tools.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/05/open-ai-cost-innovation",
+      "status": 200,
+      "title": "هوش مصنوعی متن‌باز کاهش هزینه و نوآوری در فناوری - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-05-open-ai-cost-innovation.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/02/best-free-ai-tools",
+      "status": 200,
+      "title": "بهترین ابزارهای هوش مصنوعی رایگان برای کار و توسعه - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-02-best-free-ai-tools.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/02/aio-vs-geo-seo",
+      "status": 200,
+      "title": "AIO در رقابت با GEO برای سئو و تراکنش‌های هوشمند - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-02-aio-vs-geo-seo.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/01/ai-updates-google-io-2025-business",
+      "status": 200,
+      "title": "آپدیت‌های هوش مصنوعی گوگل I/O 2025 برای کسب‌وکارها - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-01-ai-updates-google-io-2025-business.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/06/01/%d8%a8%d9%87%d8%aa%d8%b1%db%8c%d9%86-%d9%87%d9%88%d8%b4-%d9%85%d8%b5%d9%86%d9%88%d8%b9%db%8c",
+      "status": 404,
+      "title": "صفحه پیدا نشد - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        },
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-06-01-d8-a8-d9-87-d8-aa-d8-b1-db-8c-d9-86-d9-87-d9-88-d8-b4-d9-85-d8-b5-d9-86-d9-88-d8-b9-db-8c.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/05/31/best-ai-apps",
+      "status": 200,
+      "title": "بهترین اپلیکیشن‌های هوش مصنوعی - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-05-31-best-ai-apps.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/05/31/pilogic-ai-aerospace-defense",
+      "status": 200,
+      "title": "PiLogic جذب 4 میلیون دلار سرمایه برای توسعه فناوری هوش مصنوعی در هوافضا و دفاع - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-05-31-pilogic-ai-aerospace-defense.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/05/30/ai-chat-search-impact",
+      "status": 200,
+      "title": "تأثیر و فرصت‌های چت هوش مصنوعی در تحول جستجوی اطلاعات - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-05-30-ai-chat-search-impact.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/05/29/smart-warehouse-revolution",
+      "status": 200,
+      "title": "انبار هوشمند تحول در مدیریت و بهره‌وری صنعتی - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-05-29-smart-warehouse-revolution.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/05/29/chatgpt-best-ai-chat-tool",
+      "status": 200,
+      "title": "چت جی پی تی بهترین ابزار هوش مصنوعی - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-05-29-chatgpt-best-ai-chat-tool.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/2025/05/28/ai-artificial-intelligence",
+      "status": 200,
+      "title": "هوش مصنوعی چیست و چگونه کار می کند - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        },
+        {
+          "type": "error",
+          "text": "Failed to load resource: the server responded with a status of 404 ()"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-2025-05-28-ai-artificial-intelligence.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/category/articles",
+      "status": 200,
+      "title": "بایگانی‌های مقالات - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-category-articles.png"
+    },
+    {
+      "url": "https://novinaihub.ir/index.php/category/ai-news",
+      "status": 200,
+      "title": "بایگانی‌های اخبار-هوش مصنوعی - هوش نوین",
+      "depth": 2,
+      "console": [
+        {
+          "type": "warning",
+          "text": "Getbutton: parsing code failed!"
+        }
+      ],
+      "requestFailures": [],
+      "screenshot": "screenshots\\-index-php-category-ai-news.png"
+    }
+  ]
+}

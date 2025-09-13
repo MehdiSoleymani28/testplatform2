@@ -126,6 +126,29 @@
         ]
       }
     },
+    "/projects/{id}/tests": {
+      "get": {
+        "operationId": "ProjectController_getProjectTests",
+        "parameters": [
+          {
+            "name": "id",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "Project"
+        ]
+      }
+    },
     "/projects/{id}/statistics": {
       "get": {
         "operationId": "ProjectController_getStatistics",
@@ -386,6 +409,53 @@
         ],
         "responses": {
           "204": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "Test"
+        ]
+      }
+    },
+    "/tests/project/{projectId}": {
+      "get": {
+        "operationId": "TestController_findByProject",
+        "parameters": [
+          {
+            "name": "projectId",
+            "required": true,
+            "in": "path",
+            "schema": {
+              "type": "number"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": ""
+          }
+        },
+        "tags": [
+          "Test"
+        ]
+      }
+    },
+    "/tests/bulk": {
+      "post": {
+        "operationId": "TestController_createBulk",
+        "parameters": [],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BulkCreateTestsDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
             "description": ""
           }
         },
@@ -1401,6 +1471,44 @@
         },
         "required": [
           "projectId"
+        ]
+      },
+      "BulkCreateTestItemDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "framework": {
+            "type": "string"
+          },
+          "script": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "script"
+        ]
+      },
+      "BulkCreateTestsDto": {
+        "type": "object",
+        "properties": {
+          "projectId": {
+            "type": "number"
+          },
+          "tests": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BulkCreateTestItemDto"
+            }
+          }
+        },
+        "required": [
+          "projectId",
+          "tests"
         ]
       },
       "UpdateTestDto": {

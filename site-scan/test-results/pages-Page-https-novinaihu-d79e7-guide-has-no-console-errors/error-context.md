@@ -1,0 +1,253 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "آموزش مقدماتی هوش مصنوعی برای شروع یادگیری AI" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 656" [ref=e60]
+        - generic [ref=e61]:
+          - 'heading "آموزش مقدماتی هوش مصنوعی: راهنمای جامع برای مبتدیان" [level=2] [ref=e62]'
+          - paragraph [ref=e63]:
+            - text: هوش مصنوعی (AI) یکی از جذاب‌ترین و پرکاربردترین فناوری‌های عصر حاضر است که در حال تغییر دنیای اطراف ماست. اگر شما هم به دنبال
+            - generic [ref=e64]: آموزش مقدماتی هوش مصنوعی
+            - text: هستید اما هیچ پیش‌زمینه‌ای در این زمینه ندارید، این مقاله دقیقاً برای شما نوشته شده است. در این راهنمای جامع، مفاهیم پایه‌ای هوش مصنوعی را به زبان ساده و قابل فهم توضیح می‌دهیم تا بتوانید اولین قدم‌های خود را در این حوزه بردارید.
+          - paragraph [ref=e65]: هدف این مقاله ارائه یک دید کلی از هوش مصنوعی، کاربردهای آن و نحوه یادگیری آن است. در ادامه، با تعریف هوش مصنوعی، تاریخچه مختصری از آن، انواع مختلف آن و مثال‌هایی از کاربردهای روزمره آشنا خواهید شد. همچنین، منابعی برای یادگیری بیشتر معرفی می‌کنیم تا بتوانید پس از مطالعه این مقاله، مسیر یادگیری خود را ادامه دهید.
+          - heading "هوش مصنوعی چیست؟ تعریف و مفهوم پایه" [level=2] [ref=e66]
+          - paragraph [ref=e67]:
+            - text: در
+            - generic [ref=e68]: آموزش مقدماتی هوش مصنوعی
+            - text: ، ابتدا باید بدانیم که هوش مصنوعی دقیقاً چیست. به زبان ساده، هوش مصنوعی به سیستم‌هایی گفته می‌شود که توانایی انجام وظایفی را دارند که معمولاً به هوش انسانی نیاز دارند. این وظایف می‌توانند شامل یادگیری، استدلال، حل مسئله، درک زبان طبیعی و حتی تشخیص تصاویر باشند.
+          - paragraph [ref=e69]: "هوش مصنوعی را می‌توان به دو دسته کلی تقسیم کرد:"
+          - list [ref=e70]:
+            - listitem [ref=e71]:
+              - generic [ref=e72]: "هوش مصنوعی محدود (Narrow AI):"
+              - text: سیستم‌هایی که برای انجام یک کار خاص طراحی شده‌اند، مثل دستیارهای صوتی یا سیستم‌های تشخیص چهره.
+            - listitem [ref=e73]:
+              - generic [ref=e74]: "هوش مصنوعی عمومی (General AI):"
+              - text: سیستم‌هایی که توانایی انجام هر کاری را که یک انسان می‌تواند انجام دهد دارند (هنوز به این سطح نرسیده‌ایم).
+          - heading "تاریخچه مختصری از هوش مصنوعی" [level=2] [ref=e75]
+          - paragraph [ref=e76]:
+            - text: برای درک بهتر
+            - generic [ref=e77]: آموزش مقدماتی هوش مصنوعی
+            - text: "، آشنایی با تاریخچه آن می‌تواند مفید باشد. مفهوم هوش مصنوعی اولین بار در دهه 1950 مطرح شد، زمانی که آلن تورینگ پرسید: “آیا ماشین‌ها می‌توانند فکر کنند؟” از آن زمان تاکنون، این حوزه فراز و نشیب‌های بسیاری داشته است."
+          - heading "دوران طلایی و زمستان هوش مصنوعی" [level=3] [ref=e78]
+          - paragraph [ref=e79]: در دهه 1960 و 1970، پیشرفت‌های چشمگیری در این حوزه حاصل شد، اما به دلیل محدودیت‌های فناوری، دوره‌هایی از ناامیدی به وجود آمد که به “زمستان هوش مصنوعی” معروف شد. با ظهور کامپیوترهای قدرتمندتر و الگوریتم‌های پیشرفته در دهه 2000، هوش مصنوعی دوباره شکوفا شد و امروز شاهد کاربردهای گسترده آن هستیم.
+          - heading "انواع هوش مصنوعی و کاربردهای آن" [level=2] [ref=e80]
+          - paragraph [ref=e81]:
+            - text: در ادامه
+            - generic [ref=e82]: آموزش مقدماتی هوش مصنوعی
+            - text: ، به بررسی انواع مختلف این فناوری و کاربردهای عملی آن می‌پردازیم. هوش مصنوعی امروزه در بسیاری از صنایع و جنبه‌های زندگی روزمره ما نفوذ کرده است.
+          - list [ref=e83]:
+            - listitem [ref=e84]:
+              - generic [ref=e85]: "یادگیری ماشین (Machine Learning):"
+              - text: سیستم‌هایی که از داده‌ها یاد می‌گیرند و بدون برنامه‌ریزی صریح بهبود می‌یابند.
+            - listitem [ref=e86]:
+              - generic [ref=e87]: "شبکه‌های عصبی (Neural Networks):"
+              - text: الگوریتم‌هایی که از ساختار مغز انسان الهام گرفته‌اند.
+            - listitem [ref=e88]:
+              - generic [ref=e89]: "پردازش زبان طبیعی (NLP):"
+              - text: توانایی درک و تولید زبان انسانی توسط ماشین‌ها.
+          - heading "کاربردهای روزمره هوش مصنوعی" [level=3] [ref=e90]
+          - paragraph [ref=e91]: شاید متوجه نباشید، اما هوش مصنوعی هر روز در زندگی شما حضور دارد. از پیشنهادهای فیلم در نتفلیکس تا مسیریابی در گوگل مپس، همه این‌ها نمونه‌هایی از هوش مصنوعی در عمل هستند. حتی فیلترهای هوشمند ایمیل‌های اسپم نیز با استفاده از این فناوری کار می‌کنند.
+          - heading "چگونه یادگیری هوش مصنوعی را شروع کنیم؟" [level=2] [ref=e92]
+          - paragraph [ref=e93]:
+            - text: حال که با مفاهیم پایه در
+            - generic [ref=e94]: آموزش مقدماتی هوش مصنوعی
+            - text: آشنا شدید، ممکن است بپرسید چگونه می‌توانم یادگیری این حوزه را شروع کنم؟ خبر خوب این است که برای شروع نیاز به پیش‌زمینه خاصی ندارید، فقط باید علاقه و پشتکار داشته باشید.
+          - paragraph [ref=e95]: "مراحل زیر می‌توانند به شما در شروع مسیر کمک کنند:"
+          - list [ref=e96]:
+            - listitem [ref=e97]: یادگیری مبانی ریاضی (به ویژه جبر خطی و آمار)
+            - listitem [ref=e98]: آشنایی با یک زبان برنامه‌نویسی مانند پایتون
+            - listitem [ref=e99]: مطالعه مفاهیم پایه یادگیری ماشین
+            - listitem [ref=e100]: تمرین با پروژه‌های ساده و عملی
+          - heading "منابع یادگیری برای مبتدیان" [level=3] [ref=e101]
+          - paragraph [ref=e102]:
+            - text: برای شروع
+            - generic [ref=e103]: آموزش مقدماتی هوش مصنوعی
+            - text: ، منابع رایگان و باکیفیت بسیاری وجود دارد. دوره‌های آنلاین مانند Coursera، edX و
+            - link "Udemy" [ref=e104] [cursor=pointer]:
+              - /url: https://www.udemy.com/
+            - text: می‌توانند نقطه شروع خوبی باشند. همچنین، کتاب‌های مقدماتی و ویدیوهای آموزشی در YouTube نیز بسیار مفید هستند.
+          - heading "چالش‌ها و آینده هوش مصنوعی" [level=2] [ref=e105]
+          - paragraph [ref=e106]:
+            - text: در بخش پایانی این
+            - generic [ref=e107]: آموزش مقدماتی هوش مصنوعی
+            - text: ، خوب است به چالش‌ها و آینده این فناوری نیز نگاهی بیندازیم. با وجود تمام پیشرفت‌ها، هوش مصنوعی هنوز با محدودیت‌هایی روبرو است و سوالات اخلاقی مهمی را مطرح می‌کند.
+          - paragraph [ref=e108]: "برخی از چالش‌های اصلی عبارتند از:"
+          - list [ref=e109]:
+            - listitem [ref=e110]: مسائل اخلاقی در استفاده از هوش مصنوعی
+            - listitem [ref=e111]: حریم خصوصی و امنیت داده‌ها
+            - listitem [ref=e112]: تاثیر هوش مصنوعی بر بازار کار
+          - 'heading "نتیجه‌گیری: اولین قدم‌ها در دنیای هوش مصنوعی" [level=2] [ref=e113]':
+            - text: "نتیجه‌گیری: اولین قدم‌ها در"
+            - link "دنیای هوش مصنوعی" [ref=e114] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/05/28/ai-artificial-intelligence/
+          - paragraph [ref=e115]:
+            - text: در این مقاله به ارائه یک
+            - generic [ref=e116]: آموزش مقدماتی هوش مصنوعی
+            - text: پرداختیم که برای افراد کاملاً مبتدی طراحی شده است. از تعریف هوش مصنوعی شروع کردیم، تاریخچه مختصری از آن را مرور کردیم، انواع مختلف و کاربردهای آن را بررسی کردیم و در نهایت راه‌هایی برای شروع یادگیری این حوزه معرفی کردیم.
+          - paragraph [ref=e117]: یادگیری هوش مصنوعی می‌تواند در ابتدا ترسناک به نظر برسد، اما با صبر و پشتکار می‌توانید به تدریج بر مفاهیم آن مسلط شوید. مهم این است که از مبانی شروع کنید و به تدریج دانش خود را گسترش دهید. هوش مصنوعی آینده فناوری است و یادگیری آن می‌تواند فرصت‌های شغلی و شخصی بسیاری را برای شما ایجاد کند.
+          - paragraph [ref=e118]: امیدواریم این مقاله نقطه شروع خوبی برای سفر شما در دنیای جذاب هوش مصنوعی باشد. به یاد داشته باشید که هر متخصصی روزی یک مبتدی بوده است. مهم این است که اولین قدم را بردارید و به یادگیری ادامه دهید.
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - strong [ref=e121]: AI Categories
+            - text: ":"
+          - link "مقالات" [ref=e122] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/articles/
+      - generic [ref=e124]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e125]: دیدگاهتان را بنویسید
+        - generic [ref=e126]:
+          - paragraph [ref=e127]:
+            - generic [ref=e128]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e129]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e130]: "*"
+          - paragraph [ref=e131]:
+            - generic [ref=e132]:
+              - text: دیدگاه
+              - generic [ref=e133]: "*"
+            - textbox "دیدگاه *" [ref=e134]
+          - paragraph [ref=e135]:
+            - generic [ref=e136]:
+              - text: نام
+              - generic [ref=e137]: "*"
+            - textbox "نام *" [ref=e138]
+          - paragraph [ref=e139]:
+            - generic [ref=e140]:
+              - text: ایمیل
+              - generic [ref=e141]: "*"
+            - textbox "ایمیل *" [ref=e142]
+          - paragraph [ref=e143]:
+            - generic [ref=e144]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e145]
+          - paragraph [ref=e146]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e147]
+            - generic [ref=e148]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e149]:
+            - button "فرستادن دیدگاه" [ref=e150] [cursor=pointer]
+  - contentinfo [ref=e151]:
+    - generic [ref=e153]:
+      - generic [ref=e154]:
+        - heading "هوش نوین" [level=2] [ref=e155]
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - link "خانه" [ref=e158] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e159]:
+            - link "درباره هوش نوین" [ref=e160] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e161]:
+            - link "خدمات هوش نوین" [ref=e162] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e163]:
+            - link "مقالات هوش نوین" [ref=e164] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e165]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e166] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e167]:
+        - heading "تماس با ما" [level=2] [ref=e168]
+        - generic [ref=e169]:
+          - figure [ref=e170]
+          - paragraph [ref=e171]: novinaihub@gmail.com
+        - generic [ref=e172]:
+          - figure [ref=e173]
+          - paragraph [ref=e174]: "09386877087"
+        - list [ref=e175]:
+          - listitem [ref=e176]:
+            - link "Facebook" [ref=e177] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e178] [cursor=pointer]
+              - generic [ref=e180] [cursor=pointer]: Facebook
+          - listitem [ref=e181]:
+            - link "Instagram" [ref=e182] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e183] [cursor=pointer]
+              - generic [ref=e185] [cursor=pointer]: Instagram
+          - listitem [ref=e186]:
+            - link "LinkedIn" [ref=e187] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e188] [cursor=pointer]
+              - generic [ref=e190] [cursor=pointer]: LinkedIn
+          - listitem [ref=e191]:
+            - link "YouTube" [ref=e192] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e193] [cursor=pointer]
+              - generic [ref=e195] [cursor=pointer]: YouTube
+    - generic [ref=e197]:
+      - generic [ref=e198]:
+        - paragraph [ref=e199]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e200]:
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - link "صفحه اصلی" [ref=e207] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e208] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e209]:
+              - link "درباره ما" [ref=e210] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e211] [cursor=pointer]: درباره ما
+            - listitem [ref=e212]:
+              - link "خدمات هوش نوین" [ref=e213] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e214] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e215]:
+              - link "آخرین اخبار" [ref=e216] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e217] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e218]:
+              - link "مقالات" [ref=e219] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e220] [cursor=pointer]: مقالات
+      - paragraph: 
+```

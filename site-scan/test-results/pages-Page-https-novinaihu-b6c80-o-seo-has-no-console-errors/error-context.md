@@ -1,0 +1,199 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "AIO در رقابت با GEO برای سئو و تراکنش‌های هوشمند" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 599" [ref=e60]
+        - generic [ref=e61]:
+          - 'heading "هوش مصنوعی (AIO) سئوی جدید است: اگر عامل‌های هوش مصنوعی نتوانند تراکنش انجام دهند، دیده شدن کافی نیست" [level=3] [ref=e62]'
+          - paragraph [ref=e63]:
+            - strong [ref=e64]: در دنیایی که به سمت جستجوی مبتنی بر هوش مصنوعی حرکت می‌کند، مفهوم سنتی بهینه‌سازی موتورهای جستجو (SEO) تغییر اساسی یافته است. امروزه بسیاری از شرکت‌ها تنها به دنبال افزایش visibility یا دیده‌شدن در نتایج جستجو هستند که ما آن را GEO (Generative Engine Optimisation) می‌نامیم. اما تنها دیده‌شدن کافی نیست؛ زیرا سفر مشتری حالا پیچیده‌تر و جدیدتر شده است. این مقاله به بررسی این موضوع می‌پردازد که چرا بهینه‌سازی برای هوش مصنوعی یا AIO اهمیت بیشتری نسبت به GEO دارد و چگونه AI باید توانایی انجام تراکنش‌ها را نیز داشته باشد.
+          - heading "تفاوت بین GEO و AIO" [level=3] [ref=e65]
+          - paragraph [ref=e66]:
+            - strong [ref=e67]: GEO یا بهینه‌سازی موتورهای تولیدی، بر افزایش visibility در نتایج هوش مصنوعی تمرکز دارد. این مرحله ابتدایی و مهم است اما محدود به نمایش اطلاعات است. در مقابل، AIO یا بهینه‌سازی هوش مصنوعی فراتر رفته و تجربه کاربری را بهبود می‌بخشد؛ به طوری که AI نه تنها اطلاعات را جستجو می‌کند، بلکه اقدامات و تراکنش‌ها را به صورت خودکار انجام می‌دهد. به عبارت دیگر، AIO یک سطح جدید از خدمات هوشمند است که باعث تحول واقعی در سفر مشتری می‌شود.
+          - heading "چرا دیده‌شدن کافی نیست؟" [level=3] [ref=e68]
+          - paragraph [ref=e69]:
+            - strong [ref=e70]: هوش مصنوعی امروزی به گونه‌ای طراحی شده است که به جای فقط نشان دادن نتایج، می‌تواند عمل کند و فرآیندهای خرید، رزرو و پرداخت را انجام دهد. اگر کسب‌وکارها فقط به visibility و GEO بسنده کنند، در این مسیر عقب خواهند ماند. بدون قابلیت تراکنش‌پذیری AI، فرصت‌های تبدیل بازدیدکنندگان به مشتریان واقعی از دست می‌رود و این باعث کاهش بازدهی و ارزش سرمایه‌گذاری در بازاریابی دیجیتال می‌شود. بنابراین، باید تمرکز بر AIO باشد تا AI بتواند نقش فعال و مؤثری در تعامل با مشتریان داشته باشد.
+          - heading "نتیجه‌گیری" [level=3] [ref=e71]
+          - paragraph [ref=e72]:
+            - strong [ref=e73]: تحول جهانی از موتورهای جستجوی سنتی به سیستم‌های هوشمند AI، نیازمند بازنگری در استراتژی‌های بهینه‌سازی است. صرفاً افزایش visibility یا GEO دیگر کافی نیست؛ بلکه باید به AIO توجه شود تا هوش مصنوعی توانایی انجام تراکنش‌ها و تسهیل سفر مشتری را داشته باشد. کسب‌وکارهایی که این واقعیت را درک کرده و بهینه‌سازی‌های لازم را انجام دهند، در بازار آینده پیشتاز خواهند بود و تجربه مشتری را به سطحی جدید می‌رسانند.
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - link "Huawei Supernode 384 چه تاثیری در بازار هوش مصنوعی دارد" [ref=e76] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/13/huawei-supernode-384-ai-impact/
+            - listitem [ref=e77]:
+              - link "تاثیر Google AI Overview بر سئو و راهکارهای بهینه‌سازی" [ref=e78] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/12/google-ai-overview-seo-optimization/
+            - listitem [ref=e79]:
+              - link "بریتانیا و هوش مصنوعی برای امنیت آرکتیک خنک" [ref=e80] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/12/britain-ai-arctic-security/
+            - listitem [ref=e81]:
+              - link "اهمیت اخلاق در اتوماسیون و هوش مصنوعی" [ref=e82] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/09/aiethics-automationethics-techmorality/
+            - listitem [ref=e83]:
+              - link "هوش مصنوعی متن‌باز کاهش هزینه و نوآوری در فناوری" [ref=e84] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/05/open-ai-cost-innovation/
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - strong [ref=e87]: AI Categories
+            - text: ":"
+          - link "اخبار-هوش مصنوعی" [ref=e88] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/ai-news/
+      - generic [ref=e90]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e91]: دیدگاهتان را بنویسید
+        - generic [ref=e92]:
+          - paragraph [ref=e93]:
+            - generic [ref=e94]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e95]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e96]: "*"
+          - paragraph [ref=e97]:
+            - generic [ref=e98]:
+              - text: دیدگاه
+              - generic [ref=e99]: "*"
+            - textbox "دیدگاه *" [ref=e100]
+          - paragraph [ref=e101]:
+            - generic [ref=e102]:
+              - text: نام
+              - generic [ref=e103]: "*"
+            - textbox "نام *" [ref=e104]
+          - paragraph [ref=e105]:
+            - generic [ref=e106]:
+              - text: ایمیل
+              - generic [ref=e107]: "*"
+            - textbox "ایمیل *" [ref=e108]
+          - paragraph [ref=e109]:
+            - generic [ref=e110]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e111]
+          - paragraph [ref=e112]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e113]
+            - generic [ref=e114]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e115]:
+            - button "فرستادن دیدگاه" [ref=e116] [cursor=pointer]
+  - contentinfo [ref=e117]:
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - heading "هوش نوین" [level=2] [ref=e121]
+        - list [ref=e122]:
+          - listitem [ref=e123]:
+            - link "خانه" [ref=e124] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e125]:
+            - link "درباره هوش نوین" [ref=e126] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e127]:
+            - link "خدمات هوش نوین" [ref=e128] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e129]:
+            - link "مقالات هوش نوین" [ref=e130] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e131]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e132] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e133]:
+        - heading "تماس با ما" [level=2] [ref=e134]
+        - generic [ref=e135]:
+          - figure [ref=e136]
+          - paragraph [ref=e137]: novinaihub@gmail.com
+        - generic [ref=e138]:
+          - figure [ref=e139]
+          - paragraph [ref=e140]: "09386877087"
+        - list [ref=e141]:
+          - listitem [ref=e142]:
+            - link "Facebook" [ref=e143] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e144] [cursor=pointer]
+              - generic [ref=e146] [cursor=pointer]: Facebook
+          - listitem [ref=e147]:
+            - link "Instagram" [ref=e148] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e149] [cursor=pointer]
+              - generic [ref=e151] [cursor=pointer]: Instagram
+          - listitem [ref=e152]:
+            - link "LinkedIn" [ref=e153] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e154] [cursor=pointer]
+              - generic [ref=e156] [cursor=pointer]: LinkedIn
+          - listitem [ref=e157]:
+            - link "YouTube" [ref=e158] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e159] [cursor=pointer]
+              - generic [ref=e161] [cursor=pointer]: YouTube
+    - generic [ref=e163]:
+      - generic [ref=e164]:
+        - paragraph [ref=e165]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e166]:
+          - list [ref=e171]:
+            - listitem [ref=e172]:
+              - link "صفحه اصلی" [ref=e173] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e174] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e175]:
+              - link "درباره ما" [ref=e176] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e177] [cursor=pointer]: درباره ما
+            - listitem [ref=e178]:
+              - link "خدمات هوش نوین" [ref=e179] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e180] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e181]:
+              - link "آخرین اخبار" [ref=e182] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e183] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e184]:
+              - link "مقالات" [ref=e185] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e186] [cursor=pointer]: مقالات
+      - paragraph: 
+```

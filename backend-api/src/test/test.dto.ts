@@ -58,3 +58,34 @@ export class UpdateTestDto {
   @IsString()
   script?: string;
 }
+
+export class BulkCreateTestItemDto {
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  name?: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  description?: string;
+
+  @ApiPropertyOptional()
+  @IsOptional()
+  @IsString()
+  framework?: string;
+
+  @ApiProperty()
+  @IsString()
+  script: string;
+}
+
+export class BulkCreateTestsDto {
+  @ApiProperty()
+  @IsInt()
+  projectId: number;
+
+  @ApiProperty({ type: [BulkCreateTestItemDto] })
+  @IsOptional()
+  tests: BulkCreateTestItemDto[] = [];
+}

@@ -41,6 +41,19 @@ export class ProjectController {
     }
   }
 
+  @Get(':id/tests')
+  async getProjectTests(@Param('id', ParseIntPipe) id: number) {
+    try {
+      const project = await this.projectService.findOne(id);
+      return project.tests ?? [];
+    } catch (error) {
+      if (error instanceof NotFoundException) {
+        throw error;
+      }
+      throw new HttpException(error.message, 500);
+    }
+  }
+
   @Get(':id/statistics')
   async getStatistics(@Param('id', ParseIntPipe) id: number) {
     try {

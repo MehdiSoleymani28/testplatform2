@@ -1,0 +1,245 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "چت جی پی تی بهترین ابزار هوش مصنوعی" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "هوش مصنوعی چت جی پی تی" [ref=e60]
+        - generic [ref=e61]:
+          - heading "چت جی پی تی چیست و چه کارهایی انجام می‌دهد؟" [level=2] [ref=e62]
+          - paragraph [ref=e63]:
+            - text: در دنیای امروز، فناوری‌های
+            - link "هوش مصنوعی" [ref=e64] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/2025/05/28/ai-artificial-intelligence/
+            - text: به سرعت در حال پیشرفت هستند و یکی از جذاب‌ترین ابزارهای این حوزه،
+            - generic [ref=e65]: چت جی پی تی
+            - text: است. این مدل زبانی پیشرفته که توسط
+            - link "OpenAI" [ref=e66] [cursor=pointer]:
+              - /url: https://openai.com/
+            - text: توسعه یافته، توانایی درک و تولید متن‌های انسانی را دارد و در زمینه‌های مختلفی کاربرد دارد. اما دقیقاً
+            - generic [ref=e67]: چت جی پی تی چیست
+            - text: و چگونه می‌توان از آن استفاده کرد؟
+          - paragraph [ref=e68]:
+            - text: در ادامه، مهم‌ترین کاربردهای
+            - generic [ref=e69]: این هوش مصنوعی
+            - text: را در صنایع مختلف بررسی کرده و در نهایت، آینده این فناوری را تحلیل خواهیم کرد. اگر کنجکاو هستید که بدانید این ابزار چگونه می‌تواند زندگی و کار شما را متحول کند، تا پایان این مطلب با ما همراه باشید.
+          - heading "چت جی پی تی چیست؟" [level=2] [ref=e70]
+          - paragraph [ref=e71]:
+            - generic [ref=e72]: چت جی پی تی
+            - text: یک مدل زبانی مبتنی بر هوش مصنوعی است که توسط شرکت OpenAI توسعه داده شده است. این مدل از معماری GPT (مخفف Generative Pre-trained Transformer) استفاده می‌کند و قادر است متن‌های پیچیده و طبیعی را تولید کند. نسخه‌های مختلفی از این مدل وجود دارد، مانند GPT-3 و GPT-4، که هر کدام پیشرفته‌تر از نسخه قبلی هستند.
+          - paragraph [ref=e73]: این فناوری با استفاده از حجم عظیمی از داده‌های متنی آموزش دیده و می‌تواند به سوالات پاسخ دهد، متون را ترجمه کند، کدهای برنامه‌نویسی بنویسد و حتی خلاصه‌ای از مقالات طولانی ارائه دهد. یکی از ویژگی‌های منحصر به فرد این مدل زبانی، توانایی یادگیری و تطبیق با سبک گفتار کاربر است که آن را به ابزاری بسیار انعطاف‌پذیر تبدیل کرده است.
+          - heading "چت جی پی تی چگونه کار می‌کند؟" [level=2] [ref=e74]
+          - paragraph [ref=e75]: برای درک عملکرد، ابتدا باید با مفهوم «ترنسفورمر» آشنا شوید. این مدل از یک شبکه عصبی عمیق استفاده می‌کند که می‌تواند روابط بین کلمات و جملات را درک کند. هنگامی که کاربر متنی را وارد می‌کند، مدل با تحلیل کلمات و پیش‌بینی دنباله‌های محتمل، پاسخ مناسب را تولید می‌کند.
+          - heading "مراحل پردازش" [level=3] [ref=e76]
+          - list [ref=e77]:
+            - listitem [ref=e78]:
+              - generic [ref=e79]: "دریافت ورودی:"
+              - text: کاربر سوال یا دستور خود را وارد می‌کند.
+            - listitem [ref=e80]:
+              - generic [ref=e81]: "پردازش متن:"
+              - text: مدل کلمات را تجزیه و تحلیل کرده و الگوهای زبانی را شناسایی می‌کند.
+            - listitem [ref=e82]:
+              - generic [ref=e83]: "تولید پاسخ:"
+              - text: بر اساس داده‌های آموزش دیده، پاسخ مناسب تولید می‌شود.
+            - listitem [ref=e84]:
+              - generic [ref=e85]: "ارسال خروجی:"
+              - text: پاسخ نهایی به کاربر نمایش داده می‌شود.
+          - paragraph [ref=e86]: این فرآیند در کسری از ثانیه انجام می‌شود و با هر تعامل، مدل می‌تواند پاسخ‌های دقیق‌تری ارائه دهد.
+          - heading "کاربردهای چت جی پی تی" [level=2] [ref=e87]
+          - heading "پشتیبانی مشتری" [level=3] [ref=e88]
+          - paragraph [ref=e89]:
+            - text: بسیاری از شرکت‌ها از
+            - generic [ref=e90]: مدل هوش مصنوعی
+            - text: برای پاسخگویی به سوالات مشتریان استفاده می‌کنند. این مدل می‌تواند به صورت خودکار به پیام‌ها پاسخ دهد و مشکلات را حل کند.
+          - heading "تولید محتوا" [level=3] [ref=e91]
+          - paragraph [ref=e92]: نویسندگان، بازاریابان و وبلاگ‌نویسان می‌توانند از این ابزار برای تولید ایده، نوشتن مقالات و حتی ویرایش متون استفاده کنند.
+          - heading "برنامه‌نویسی" [level=3] [ref=e93]
+          - paragraph [ref=e94]: توسعه‌دهندگان می‌توانند کدهای خود را بهینه کنند، خطاها را رفع کنند یا حتی کدهای جدید بنویسند.
+          - heading "آموزش و یادگیری" [level=3] [ref=e95]
+          - paragraph [ref=e96]: این مدل می‌تواند به دانش‌آموزان و دانشجویان در حل مسائل ریاضی، ترجمه متون و توضیح مفاهیم پیچیده کمک کند.
+          - heading "مزایا و معایب" [level=2] [ref=e97]
+          - heading "مزایا" [level=3] [ref=e98]
+          - list [ref=e99]:
+            - listitem [ref=e100]: سرعت بالا در پاسخگویی
+            - listitem [ref=e101]: دقت قابل قبول در تولید متن
+            - listitem [ref=e102]: انعطاف‌پذیری در کاربردهای مختلف
+          - heading "معایب" [level=3] [ref=e103]
+          - list [ref=e104]:
+            - listitem [ref=e105]: وابستگی به داده‌های آموزشی (ممکن است پاسخ‌های نادرست بدهد)
+            - listitem [ref=e106]: عدم درک کامل از احساسات انسانی
+            - listitem [ref=e107]: نیاز به نظارت انسانی برای جلوگیری از سوءاستفاده
+          - heading "آینده چت جی پی تی" [level=2] [ref=e108]
+          - paragraph [ref=e109]:
+            - text: با توجه به سرعت پیشرفت هوش مصنوعی، انتظار می‌رود
+            - generic [ref=e110]: این هوش مصنوعی
+            - text: در آینده نقش پررنگ‌تری در زندگی روزمره ما ایفا کند. بهبود دقت، افزایش توانایی درک احساسات و یکپارچه‌سازی با سایر فناوری‌ها از جمله تحولات احتمالی این مدل هستند.
+          - paragraph [ref=e111]: همچنین، انتظار می‌رود که این فناوری در حوزه‌هایی مانند پزشکی، حقوق و مهندسی نیز گسترش یابد و به متخصصان در تصمیم‌گیری‌های پیچیده کمک کند.
+          - heading "نتیجه‌گیری" [level=2] [ref=e112]
+          - paragraph [ref=e113]: یکی از پیشرفته‌ترین مدل‌های زبانی هوش مصنوعی که توانسته تحول بزرگی در تعامل انسان با ماشین ایجاد کند. این فناوری با قابلیت‌های منحصر به فرد خود، در زمینه‌های مختلفی مانند تولید محتوا، پشتیبانی مشتری، برنامه‌نویسی و آموزش کاربرد دارد.
+          - paragraph [ref=e114]:
+            - text: اگرچه
+            - generic [ref=e115]: چت جی پی تی
+            - text: هنوز محدودیت‌هایی دارد، اما بدون شک در آینده شاهد بهبودهای چشمگیری در عملکرد آن خواهیم بود. با افزایش دقت و کارایی، این ابزار می‌تواند به یکی از ارکان اصلی فناوری در زندگی شخصی و حرفه‌ای افراد تبدیل شود. اگر شما هم می‌خواهید از این فناوری استفاده کنید، بهتر است با ویژگی‌ها و کاربردهای آن آشنا شوید تا بتوانید حداکثر بهره را از آن ببرید.
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - strong [ref=e118]: AI Categories
+            - text: ":"
+          - link "مقالات" [ref=e119] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/articles/
+      - generic [ref=e121]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e122]: دیدگاهتان را بنویسید
+        - generic [ref=e123]:
+          - paragraph [ref=e124]:
+            - generic [ref=e125]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e126]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e127]: "*"
+          - paragraph [ref=e128]:
+            - generic [ref=e129]:
+              - text: دیدگاه
+              - generic [ref=e130]: "*"
+            - textbox "دیدگاه *" [ref=e131]
+          - paragraph [ref=e132]:
+            - generic [ref=e133]:
+              - text: نام
+              - generic [ref=e134]: "*"
+            - textbox "نام *" [ref=e135]
+          - paragraph [ref=e136]:
+            - generic [ref=e137]:
+              - text: ایمیل
+              - generic [ref=e138]: "*"
+            - textbox "ایمیل *" [ref=e139]
+          - paragraph [ref=e140]:
+            - generic [ref=e141]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e142]
+          - paragraph [ref=e143]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e144]
+            - generic [ref=e145]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e146]:
+            - button "فرستادن دیدگاه" [ref=e147] [cursor=pointer]
+  - contentinfo [ref=e148]:
+    - generic [ref=e150]:
+      - generic [ref=e151]:
+        - heading "هوش نوین" [level=2] [ref=e152]
+        - list [ref=e153]:
+          - listitem [ref=e154]:
+            - link "خانه" [ref=e155] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e156]:
+            - link "درباره هوش نوین" [ref=e157] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e158]:
+            - link "خدمات هوش نوین" [ref=e159] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e160]:
+            - link "مقالات هوش نوین" [ref=e161] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e162]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e163] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e164]:
+        - heading "تماس با ما" [level=2] [ref=e165]
+        - generic [ref=e166]:
+          - figure [ref=e167]
+          - paragraph [ref=e168]: novinaihub@gmail.com
+        - generic [ref=e169]:
+          - figure [ref=e170]
+          - paragraph [ref=e171]: "09386877087"
+        - list [ref=e172]:
+          - listitem [ref=e173]:
+            - link "Facebook" [ref=e174] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e175] [cursor=pointer]
+              - generic [ref=e177] [cursor=pointer]: Facebook
+          - listitem [ref=e178]:
+            - link "Instagram" [ref=e179] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e180] [cursor=pointer]
+              - generic [ref=e182] [cursor=pointer]: Instagram
+          - listitem [ref=e183]:
+            - link "LinkedIn" [ref=e184] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e185] [cursor=pointer]
+              - generic [ref=e187] [cursor=pointer]: LinkedIn
+          - listitem [ref=e188]:
+            - link "YouTube" [ref=e189] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e190] [cursor=pointer]
+              - generic [ref=e192] [cursor=pointer]: YouTube
+    - generic [ref=e194]:
+      - generic [ref=e195]:
+        - paragraph [ref=e196]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e197]:
+          - list [ref=e202]:
+            - listitem [ref=e203]:
+              - link "صفحه اصلی" [ref=e204] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e205] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e206]:
+              - link "درباره ما" [ref=e207] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e208] [cursor=pointer]: درباره ما
+            - listitem [ref=e209]:
+              - link "خدمات هوش نوین" [ref=e210] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e211] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e212]:
+              - link "آخرین اخبار" [ref=e213] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e214] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e215]:
+              - link "مقالات" [ref=e216] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e217] [cursor=pointer]: مقالات
+      - paragraph: 
+```

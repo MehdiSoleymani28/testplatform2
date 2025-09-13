@@ -3,7 +3,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { Test } from './test.entity';
 import { Project } from '../project/project.entity';
-import { CreateTestDto, UpdateTestDto } from './test.dto';
+import { CreateTestDto, UpdateTestDto, BulkCreateTestsDto, BulkCreateTestItemDto } from './test.dto';
 
 @Injectable()
 export class TestService {
@@ -22,6 +22,15 @@ export class TestService {
     return this.testRepository.findOne({ where: { id }, relations: ['project'] });
   }
 
+  async findByProject(projectId: number): Promise<Test[]> {
+    return this.testRepository
+      .createQueryBuilder('test')
+      .leftJoinAndSelect('test.project', 'project')
+      .where('project.id = :projectId', { projectId })
+      .orderBy('test.createdAt', 'DESC')
+      .getMany();
+  }
+
   async create(dto: CreateTestDto): Promise<Test> {
     const project = dto.projectId ? await this.projectRepository.findOne({ where: { id: dto.projectId } }) : null;
     const test = this.testRepository.create({
@@ -33,6 +42,46 @@ export class TestService {
       project: project ?? undefined,
     });
     return this.testRepository.save(test);
+  }
+
+  async createBulk(dto: BulkCreateTestsDto): Promise<Test[]> {
+    const project = dto.projectId
+      ? await this.projectRepository.findOne({ where: { id: dto.projectId } })
+      : null;
+    if (!project) {
+      // Keep behavior consistent: throw to surface a bad request
+      throw new Error('Invalid projectId');
+    }
+
+    const items: BulkCreateTestItemDto[] = Array.isArray(dto.tests) ? dto.tests : [];
+    if (items.length === 0) return [];
+
+    const toCreate = items.map((item, index) =>
+      this.testRepository.create({
+        name:
+          item.name && item.name.trim().length > 0
+            ? item.name.trim()
+            : this.generateDefaultName({
+                framework: item.framework,
+                script: item.script,
+                projectId: dto.projectId,
+              } as CreateTestDto),
+        description:
+          item.description && item.description.trim().length > 0
+            ? item.description.trim()
+            : this.generateDefaultDescription({
+                framework: item.framework,
+                script: item.script,
+                projectId: dto.projectId,
+              } as CreateTestDto),
+        status: 'generated',
+        framework: item.framework,
+        script: item.script,
+        project,
+      }),
+    );
+
+    return this.testRepository.save(toCreate);
   }
 
   private generateDefaultName(dto: CreateTestDto): string {

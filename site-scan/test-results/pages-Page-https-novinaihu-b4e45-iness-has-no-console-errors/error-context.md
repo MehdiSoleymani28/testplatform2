@@ -1,0 +1,188 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "آپدیت‌های هوش مصنوعی گوگل I/O 2025 برای کسب‌وکارها" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 588" [ref=e60]
+        - generic [ref=e61]:
+          - heading "مقدمه" [level=2] [ref=e62]
+          - paragraph [ref=e63]:
+            - text: در کنفرانس سالانه
+            - link "Google" [ref=e64] [cursor=pointer]:
+              - /url: https://io.google/
+            - text: I/O 2025، گوگل با معرفی «100 اعلامیه بزرگ» به‌ویژه با تمرکز بر آپدیت‌های مهم هوش مصنوعی گوگل برای کسب‌وکارها، گام بزرگی در تحول دیجیتال برداشت. این به‌روزرسانی‌ها شامل فناوری‌های پیشرفته تصاویر و ویدئوها، کاربردهای گسترده از حوزه بهداشت تا مالی و ارائه مدل‌های استدلالی و قابلیت‌های پیشرفته در محیط‌های مختلف است. در این مقاله به بررسی جامع این آپدیت‌ها، تأثیرات آن‌ها بر کسب‌وکارهای مختلف و نحوه به‌کارگیری هوش مصنوعی گوگل در صنایع گوناگون خواهیم پرداخت.
+          - heading "آپدیت‌های بزرگ هوش مصنوعی گوگل برای کسب‌وکارها" [level=2] [ref=e65]
+          - paragraph [ref=e66]: یکی از مهم‌ترین بخش‌های اعلام شده در «100 announcements» گوگل، تمرکز ویژه بر فناوری‌های هوش مصنوعی شامل پردازش تصاویر و ویدئوها بود. این فناوری‌ها باعث می‌شوند کسب‌وکارها بتوانند به شیوه‌ای هوشمندتر و دقیق‌تر با مشتریان خود تعامل کنند. به‌عنوان مثال، در حوزه بهداشت، استفاده از مدل‌های هوش مصنوعی کمک می‌کند تا تشخیص بیماری‌ها سریع‌تر و دقیق‌تر انجام شود. همچنین در حوزه مالی، قابلیت‌های تحلیل و پیش‌بینی داده‌ها بهبود یافته و ریسک‌ها بهتر مدیریت می‌شوند. مهم‌تر از همه، گوگل برای اولین بار امکان استقرار این مدل‌های پیشرفته را به‌صورت «on-premises» ارائه داده است که به شرکت‌ها اجازه کنترل و امنیت بیشتر روی داده‌های خود را می‌دهد.
+          - heading "تأثیرات ترکیب مدل‌های استدلالی و قابلیت‌های عامل‌محور" [level=2] [ref=e67]
+          - paragraph [ref=e68]: یکی دیگر از نوآوری‌های مهم گوگل در این اعلامیه‌ها، ترکیب مدل‌های استدلالی با قابلیت‌های عامل‌محور (agentic capabilities) است. این ترکیب به کسب‌وکارها اجازه می‌دهد هوش مصنوعی گوگل را نه فقط به‌عنوان یک ابزار تحلیل بلکه به‌عنوان یک عامل فعال در تصمیم‌گیری‌ها و عملیات روزمره به کار گیرند. این ویژگی، هوش مصنوعی را برای انواع و اندازه‌های مختلف کسب‌وکارها در صنایع متنوعی از جمله بهداشت، مالی، خرده‌فروشی و خدمات، قابل استفاده‌تر و کاربردی‌تر می‌سازد. بهره‌گیری از این مدل‌ها، باعث بهبود بهره‌وری، کاهش هزینه‌ها و افزایش رضایت مشتری می‌شود.
+          - heading "نتیجه‌گیری" [level=2] [ref=e69]
+          - paragraph [ref=e70]: در نهایت، اعلامیه‌های گوگل I/O 2025 نشان‌دهنده موجی بزرگ از نوآوری‌های هوش مصنوعی هستند که می‌توانند نحوه عملکرد و تعامل کسب‌وکارها با مشتریان و بازار را دگرگون کنند. فناوری‌های تصاویر و ویدئو، مدل‌های استدلالی و استقرار امن در محیط‌های متفاوت متناسب با نیازهای صنایع گوناگون، درهای جدیدی را به روی کسب‌وکارها گشوده‌اند. استفاده هوشمندانه از این آپدیت‌های پیشرفته گوگل می‌تواند راهکاری موثر برای رشد پایدار، بهبود فرآیندها و افزایش رقابت‌پذیری در بازارهای جهانی باشد.
+          - paragraph [ref=e71]
+          - paragraph [ref=e72]:
+            - text: با ما همراه باشید.
+            - link "هوش نوین" [ref=e73] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - strong [ref=e76]: AI Categories
+            - text: ":"
+          - link "اخبار-هوش مصنوعی" [ref=e77] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/ai-news/
+      - generic [ref=e79]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e80]: دیدگاهتان را بنویسید
+        - generic [ref=e81]:
+          - paragraph [ref=e82]:
+            - generic [ref=e83]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e84]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e85]: "*"
+          - paragraph [ref=e86]:
+            - generic [ref=e87]:
+              - text: دیدگاه
+              - generic [ref=e88]: "*"
+            - textbox "دیدگاه *" [ref=e89]
+          - paragraph [ref=e90]:
+            - generic [ref=e91]:
+              - text: نام
+              - generic [ref=e92]: "*"
+            - textbox "نام *" [ref=e93]
+          - paragraph [ref=e94]:
+            - generic [ref=e95]:
+              - text: ایمیل
+              - generic [ref=e96]: "*"
+            - textbox "ایمیل *" [ref=e97]
+          - paragraph [ref=e98]:
+            - generic [ref=e99]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e100]
+          - paragraph [ref=e101]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e102]
+            - generic [ref=e103]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e104]:
+            - button "فرستادن دیدگاه" [ref=e105] [cursor=pointer]
+  - contentinfo [ref=e106]:
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - heading "هوش نوین" [level=2] [ref=e110]
+        - list [ref=e111]:
+          - listitem [ref=e112]:
+            - link "خانه" [ref=e113] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e114]:
+            - link "درباره هوش نوین" [ref=e115] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e116]:
+            - link "خدمات هوش نوین" [ref=e117] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e118]:
+            - link "مقالات هوش نوین" [ref=e119] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e120]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e121] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e122]:
+        - heading "تماس با ما" [level=2] [ref=e123]
+        - generic [ref=e124]:
+          - figure [ref=e125]
+          - paragraph [ref=e126]: novinaihub@gmail.com
+        - generic [ref=e127]:
+          - figure [ref=e128]
+          - paragraph [ref=e129]: "09386877087"
+        - list [ref=e130]:
+          - listitem [ref=e131]:
+            - link "Facebook" [ref=e132] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e133] [cursor=pointer]
+              - generic [ref=e135] [cursor=pointer]: Facebook
+          - listitem [ref=e136]:
+            - link "Instagram" [ref=e137] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e138] [cursor=pointer]
+              - generic [ref=e140] [cursor=pointer]: Instagram
+          - listitem [ref=e141]:
+            - link "LinkedIn" [ref=e142] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e143] [cursor=pointer]
+              - generic [ref=e145] [cursor=pointer]: LinkedIn
+          - listitem [ref=e146]:
+            - link "YouTube" [ref=e147] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e148] [cursor=pointer]
+              - generic [ref=e150] [cursor=pointer]: YouTube
+    - generic [ref=e152]:
+      - generic [ref=e153]:
+        - paragraph [ref=e154]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e155]:
+          - list [ref=e160]:
+            - listitem [ref=e161]:
+              - link "صفحه اصلی" [ref=e162] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e163] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e164]:
+              - link "درباره ما" [ref=e165] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e166] [cursor=pointer]: درباره ما
+            - listitem [ref=e167]:
+              - link "خدمات هوش نوین" [ref=e168] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e169] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e170]:
+              - link "آخرین اخبار" [ref=e171] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e172] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e173]:
+              - link "مقالات" [ref=e174] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e175] [cursor=pointer]: مقالات
+      - paragraph: 
+```

@@ -1,0 +1,195 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "Huawei Supernode 384 چه تاثیری در بازار هوش مصنوعی دارد" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 694" [ref=e60]
+        - generic [ref=e61]:
+          - heading "مقدمه‌ای بر نفوذ Huawei Supernode 384 در بازار هوش مصنوعی" [level=3] [ref=e62]
+          - paragraph [ref=e63]:
+            - strong [ref=e64]:
+              - text: در سال‌های اخیر، رقابت جهانی در حوزه هوش مصنوعی و پردازشگرهای پیشرفته به شدت افزایش یافته است. Huawei Supernode 384 به عنوان یک معماری تحول‌آفرین در این زمینه معرفی شده که می‌تواند سلطه طولانی‌مدت
+              - generic [ref=e65]: Nvidia
+              - text: را به چالش بکشد. این پیشرفت مهم در کنفرانس توسعه‌دهندگان Kunpeng Ascend در Shenzhen رونمایی شد و نشان‌دهنده تغییرات بنیادین در ساختارهای پردازشی هوش مصنوعی است. در ادامه، با بررسی ویژگی‌های فنی، عملکرد و تأثیرات بازار، دلایل رقابت جدید Huawei در بازار هوش مصنوعی و اثرات ژئوپولیتیک آن را مورد بررسی قرار می‌دهیم.
+          - heading "معماری نوآورانه Huawei Supernode 384 و توانمندی‌های فنی" [level=3] [ref=e66]
+          - paragraph [ref=e67]:
+            - strong [ref=e68]:
+              - text: شرکت هواوی با معرفی Supernode 384، به جای استفاده از اصول سنتی von Neumann، معماری همتا به همتا (peer-to-peer) را برای پردازش‌های موازی عظیم به کار گرفته است. این طراحی به ویژه برای مدل‌های Mixture-of-Experts که شامل شبکه‌های تخصصی متعدد هستند، بهینه‌سازی شده است.
+              - generic [ref=e69]: CloudMatrix 384
+              - text: ، نسخه عملیاتی این معماری، از ۳۸۴ پردازشگر Ascend AI استفاده می‌کند و توان محاسباتی خام آن به ۳۰۰ پتافلاپس و حافظه با پهنای باند بالا ۴۸ ترابایت می‌رسد. این مشخصات، یک جهش قابل توجه در زیرساخت‌های پردازشی هوش مصنوعی است که می‌تواند ظرفیت آموزش مدل‌های پیچیده را به طور چشمگیری افزایش دهد.
+          - heading "عملکرد برتر در رقابت با Nvidia و چالش‌های پیش رو" [level=3] [ref=e70]
+          - paragraph [ref=e71]:
+            - strong [ref=e72]: آزمون‌های واقعی نشان داده‌اند که Huawei Supernode 384 عملکردی ۲.۵ برابر قوی‌تر از سیستم‌های سنتی برای مدل‌های پیچیده از جمله LLaMA 3 دارد. همچنین در مدل‌های ارتباطی مانند Qwen و DeepSeek، سرعت تولید توکن به ۷۵۰ توکن بر ثانیه رسیده است. تغییرات اساسی مانند جایگزینی اتصالات اترنت با باس پرسرعت، موجب افزایش ۱۵ برابری پهنای باند و کاهش تأخیر به کمتر از ۲۰۰ نانوثانیه شده است. با وجود تحریم‌های آمریکا که دسترسی هواوی به فناوری‌های پیشرفته تراشه را محدود کرده، این شرکت با فناوری‌های معماری نوآورانه توانسته جایگاه خود را در بازار جهانی تقویت کند.
+          - 'heading "نتیجه‌گیری: آینده رقابت در بازار پردازش‌های هوش مصنوعی" [level=3] [ref=e73]'
+          - paragraph [ref=e74]:
+            - strong [ref=e75]: معرفی Huawei Supernode 384 نقطه عطفی مهم در نبرد تکنولوژیک و اقتصادی میان آمریکا و چین محسوب می‌شود. این سیستم با عملکرد برتر و مقیاس‌پذیری بالا، تهدیدی جدی برای سلطه Nvidia در بازار هوش مصنوعی است. از سوی دیگر، موفقیت بلندمدت این فناوری نیازمند پذیرش گسترده توسط توسعه‌دهندگان و ثبات بیشتر در فضای سیاسی است. در نهایت، Supernode 384 فرصتی جدید برای سازمان‌ها فراهم می‌آورد که به دنبال راه‌حل‌های مستقل از زنجیره‌های تأمین تحت کنترل آمریکایی هستند و می‌تواند روند توسعه هوش مصنوعی را به سمت زیرساخت‌های متنوع‌تر و نوآورانه‌تر سوق دهد.
+          - paragraph [ref=e76]
+          - paragraph [ref=e77]
+          - paragraph [ref=e78]:
+            - text: با ما همراه باشید.
+            - link "هوش نوین" [ref=e79] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+        - generic [ref=e80]:
+          - generic [ref=e81]:
+            - strong [ref=e82]: AI Categories
+            - text: ":"
+          - link "اخبار-هوش مصنوعی" [ref=e83] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/ai-news/
+      - generic [ref=e85]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e86]: دیدگاهتان را بنویسید
+        - generic [ref=e87]:
+          - paragraph [ref=e88]:
+            - generic [ref=e89]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e90]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e91]: "*"
+          - paragraph [ref=e92]:
+            - generic [ref=e93]:
+              - text: دیدگاه
+              - generic [ref=e94]: "*"
+            - textbox "دیدگاه *" [ref=e95]
+          - paragraph [ref=e96]:
+            - generic [ref=e97]:
+              - text: نام
+              - generic [ref=e98]: "*"
+            - textbox "نام *" [ref=e99]
+          - paragraph [ref=e100]:
+            - generic [ref=e101]:
+              - text: ایمیل
+              - generic [ref=e102]: "*"
+            - textbox "ایمیل *" [ref=e103]
+          - paragraph [ref=e104]:
+            - generic [ref=e105]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e106]
+          - paragraph [ref=e107]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e108]
+            - generic [ref=e109]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e110]:
+            - button "فرستادن دیدگاه" [ref=e111] [cursor=pointer]
+  - contentinfo [ref=e112]:
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - heading "هوش نوین" [level=2] [ref=e116]
+        - list [ref=e117]:
+          - listitem [ref=e118]:
+            - link "خانه" [ref=e119] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e120]:
+            - link "درباره هوش نوین" [ref=e121] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e122]:
+            - link "خدمات هوش نوین" [ref=e123] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e124]:
+            - link "مقالات هوش نوین" [ref=e125] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e126]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e127] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e128]:
+        - heading "تماس با ما" [level=2] [ref=e129]
+        - generic [ref=e130]:
+          - figure [ref=e131]
+          - paragraph [ref=e132]: novinaihub@gmail.com
+        - generic [ref=e133]:
+          - figure [ref=e134]
+          - paragraph [ref=e135]: "09386877087"
+        - list [ref=e136]:
+          - listitem [ref=e137]:
+            - link "Facebook" [ref=e138] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e139] [cursor=pointer]
+              - generic [ref=e141] [cursor=pointer]: Facebook
+          - listitem [ref=e142]:
+            - link "Instagram" [ref=e143] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e144] [cursor=pointer]
+              - generic [ref=e146] [cursor=pointer]: Instagram
+          - listitem [ref=e147]:
+            - link "LinkedIn" [ref=e148] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e149] [cursor=pointer]
+              - generic [ref=e151] [cursor=pointer]: LinkedIn
+          - listitem [ref=e152]:
+            - link "YouTube" [ref=e153] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e154] [cursor=pointer]
+              - generic [ref=e156] [cursor=pointer]: YouTube
+    - generic [ref=e158]:
+      - generic [ref=e159]:
+        - paragraph [ref=e160]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e161]:
+          - list [ref=e166]:
+            - listitem [ref=e167]:
+              - link "صفحه اصلی" [ref=e168] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e169] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e170]:
+              - link "درباره ما" [ref=e171] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e172] [cursor=pointer]: درباره ما
+            - listitem [ref=e173]:
+              - link "خدمات هوش نوین" [ref=e174] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e175] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e176]:
+              - link "آخرین اخبار" [ref=e177] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e178] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e179]:
+              - link "مقالات" [ref=e180] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e181] [cursor=pointer]: مقالات
+      - paragraph: 
+```

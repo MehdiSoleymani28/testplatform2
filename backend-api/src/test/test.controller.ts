@@ -1,6 +1,6 @@
 import { Controller, Get, Post, Put, Delete, Param, Body, ParseIntPipe, HttpCode } from '@nestjs/common';
 import { TestService } from './test.service';
-import { CreateTestDto, UpdateTestDto } from './test.dto';
+import { CreateTestDto, UpdateTestDto, BulkCreateTestsDto } from './test.dto';
 import { Test } from './test.entity';
 
 @Controller('tests')
@@ -17,9 +17,19 @@ export class TestController {
     return this.testService.findOne(id);
   }
 
+  @Get('project/:projectId')
+  findByProject(@Param('projectId', ParseIntPipe) projectId: number): Promise<Test[]> {
+    return this.testService.findByProject(projectId);
+  }
+
   @Post()
   create(@Body() createTestDto: CreateTestDto): Promise<Test> {
     return this.testService.create(createTestDto);
+  }
+
+  @Post('bulk')
+  createBulk(@Body() dto: BulkCreateTestsDto): Promise<Test[]> {
+    return this.testService.createBulk(dto);
   }
 
   @Put(':id')

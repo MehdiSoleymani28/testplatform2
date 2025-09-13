@@ -1,0 +1,135 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - main [ref=e50]:
+    - generic [ref=e53]:
+      - 'heading "404: صفحه Disco-vered نیست" [level=2] [ref=e54]'
+      - paragraph [ref=e55]: به نظر می رسد زمین رقص اینجا خالی است! این صفحه عمل ناپدید شدن را انجام داده است. با کلیک بر روی پیوندهای ناوبری به مرحله اصلی برگردید و بیایید مهمانی را ادامه دهیم!
+      - search [ref=e56]:
+        - generic [ref=e57]: Search
+        - generic [ref=e58]:
+          - searchbox "Search" [ref=e59]
+          - button "Search" [ref=e60] [cursor=pointer]
+      - generic [ref=e63] [cursor=pointer]: به صفحه اصلی بروید
+  - contentinfo [ref=e64]:
+    - generic [ref=e66]:
+      - generic [ref=e67]:
+        - heading "هوش نوین" [level=2] [ref=e68]
+        - list [ref=e69]:
+          - listitem [ref=e70]:
+            - link "خانه" [ref=e71] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e72]:
+            - link "درباره هوش نوین" [ref=e73] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e74]:
+            - link "خدمات هوش نوین" [ref=e75] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e76]:
+            - link "مقالات هوش نوین" [ref=e77] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e78]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e79] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e80]:
+        - heading "تماس با ما" [level=2] [ref=e81]
+        - generic [ref=e82]:
+          - figure [ref=e83]
+          - paragraph [ref=e84]: novinaihub@gmail.com
+        - generic [ref=e85]:
+          - figure [ref=e86]
+          - paragraph [ref=e87]: "09386877087"
+        - list [ref=e88]:
+          - listitem [ref=e89]:
+            - link "Facebook" [ref=e90] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e91] [cursor=pointer]
+              - generic [ref=e93] [cursor=pointer]: Facebook
+          - listitem [ref=e94]:
+            - link "Instagram" [ref=e95] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e96] [cursor=pointer]
+              - generic [ref=e98] [cursor=pointer]: Instagram
+          - listitem [ref=e99]:
+            - link "LinkedIn" [ref=e100] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e101] [cursor=pointer]
+              - generic [ref=e103] [cursor=pointer]: LinkedIn
+          - listitem [ref=e104]:
+            - link "YouTube" [ref=e105] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e106] [cursor=pointer]
+              - generic [ref=e108] [cursor=pointer]: YouTube
+    - generic [ref=e110]:
+      - generic [ref=e111]:
+        - paragraph [ref=e112]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e113]:
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - link "صفحه اصلی" [ref=e120] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e121] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e122]:
+              - link "درباره ما" [ref=e123] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e124] [cursor=pointer]: درباره ما
+            - listitem [ref=e125]:
+              - link "خدمات هوش نوین" [ref=e126] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e127] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e128]:
+              - link "آخرین اخبار" [ref=e129] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e130] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e131]:
+              - link "مقالات" [ref=e132] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e133] [cursor=pointer]: مقالات
+      - paragraph: 
+```

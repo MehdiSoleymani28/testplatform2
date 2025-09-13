@@ -1,0 +1,219 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "هوش مصنوعی متن‌باز کاهش هزینه و نوآوری در فناوری" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 609" [ref=e60]
+        - generic [ref=e61]:
+          - heading "مقدمه" [level=2] [ref=e62]
+          - paragraph [ref=e63]:
+            - text: امروزه
+            - generic [ref=e64]: Linux Foundation
+            - text: و شرکت
+            - generic [ref=e65]: Meta
+            - text: با همکاری هم نشان داده‌اند که
+            - generic [ref=e66]: هوش مصنوعی متن‌باز (open-source AI)
+            - text: چگونه می‌تواند هزینه‌ها را کاهش داده و رشد کسب‌وکارها را سرعت ببخشد. این مقاله بر اساس گزارش جدیدی است که به بررسی تأثیر
+            - generic [ref=e67]: open-source AI
+            - text: در دنیای فناوری می‌پردازد و با ارائه آمارها و تحلیل‌هایی از صنایع مختلف، اهمیت این فناوری را برجسته می‌کند. در ادامه، به بررسی مزایای اقتصادی، تأثیرات نوآوری و نمونه‌های موفق در این حوزه پرداخته خواهد شد.
+          - heading "کاهش هزینه‌ها با هوش مصنوعی متن‌باز" [level=2] [ref=e68]
+          - paragraph [ref=e69]:
+            - text: طبق گزارش مشترک
+            - generic [ref=e70]: Linux Foundation
+            - text: و
+            - link "Meta" [ref=e71] [cursor=pointer]:
+              - /url: https://www.meta.ai/
+              - generic [ref=e72] [cursor=pointer]: Meta
+            - text: ،
+            - generic [ref=e73]: open-source AI
+            - text: به شرکت‌ها کمک می‌کند تا هزینه‌های اجرایی و فناوری خود را تا حد چشمگیری کاهش دهند. بیشتر کسب‌وکارها اذعان دارند که راه‌اندازی پروژه‌های هوش مصنوعی متن‌باز تقریباً دو سوم هزینه کمتری نسبت به نمونه‌های اختصاصی دارد. این صرفه‌جویی‌های مالی، محرک اصلی بسیاری از شرکت‌ها برای انتخاب
+            - generic [ref=e74]: open-source AI
+            - text: است. به گفته محققان، نبود نرم‌افزارهای متن‌باز ممکن بود هزینه‌ها را تا 3.5 برابر افزایش دهد که نشان‌دهنده اهمیت اقتصادی این فناوری است.
+          - heading "نوآوری و رشد کسب‌وکارها با استفاده از هوش مصنوعی متن‌باز" [level=2] [ref=e75]
+          - paragraph [ref=e76]: هوش مصنوعی متن‌باز نه تنها باعث کاهش هزینه‌ها می‌شود، بلکه موجب گسترش نوآوری و افزایش بهره‌وری نیز هست. شرکت‌های کوچک و میان‌رده، به دلیل انعطاف‌پذیری و دسترسی آسان به مدل‌های AI متن‌باز، بیش از شرکت‌های بزرگ در این زمینه فعالیت می‌کنند. این موضوع باعث می‌شود که ایده‌های نوین و محصولات خلاقانه در بازار شکوفا شوند. به عنوان نمونه، تحول PyTorch توسط Meta که به سمت مدل مدیریت غیرانتفاعی حرکت کرد، نمونه واضحی از این رشد تعاون‌محور و مشارکت گسترده در جامعه متن‌باز است.
+          - heading "تأثیرات گسترده هوش مصنوعی متن‌باز در صنایع مختلف" [level=2] [ref=e77]
+          - paragraph [ref=e78]:
+            - text: هوش مصنوعی متن‌باز در زمینه‌هایی مانند
+            - generic [ref=e79]: صنعت تولید
+            - text: و
+            - generic [ref=e80]: بهداشت و درمان
+            - text: تأثیرات قابل توجهی داشته است. انعطاف‌پذیری کدهای متن‌باز به کارخانه‌ها اجازه می‌دهد فرآیندهای خودکارسازی را به شکل دقیق‌تر و کارآمدتری اجرا کنند. همچنین، در بخش بهداشت و درمان، با کمک ابزارهای AI متن‌باز، تشخیص سریع‌تر و بهبود مراقبت‌های پزشکی ممکن شده است. پیش‌بینی می‌شود این فناوری کسب‌وکارهای این حوزه را به میلیاردها دلار ارزش افزوده برساند و دستمزد متخصصان AI را تا 20٪ افزایش دهد.
+          - heading "نتیجه‌گیری" [level=2] [ref=e81]
+          - paragraph [ref=e82]:
+            - text: در نهایت، گزارش
+            - generic [ref=e83]: Linux Foundation
+            - text: و
+            - generic [ref=e84]: Meta
+            - text: نشان می‌دهد که هوش مصنوعی متن‌باز نه‌تنها راهی برای کاهش هزینه‌ها است، بلکه منبعی بی‌پایان برای نوآوری و رشد اقتصادی به شمار می‌رود. شرکت‌ها با بهره‌گیری از این فناوری، می‌توانند هم در رقابت‌های بازار برنده شوند و هم فرصت‌های شغلی و مهارتی جدید ایجاد کنند. با گسترش
+            - generic [ref=e85]: open-source AI
+            - text: ، آینده‌ای روشن‌تر و پایدارتر برای صنایع مختلف رقم می‌خورد که همه می‌توانند از آن بهره‌مند شوند.
+          - paragraph [ref=e86]
+          - paragraph [ref=e87]
+          - paragraph [ref=e88]:
+            - text: با ما به روز باشید.
+            - link "هوش نوین" [ref=e89] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - strong [ref=e92]: AI Categories
+            - text: ":"
+          - link "اخبار-هوش مصنوعی" [ref=e93] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/ai-news/
+      - generic [ref=e95]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e96]: دیدگاهتان را بنویسید
+        - generic [ref=e97]:
+          - paragraph [ref=e98]:
+            - generic [ref=e99]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e100]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e101]: "*"
+          - paragraph [ref=e102]:
+            - generic [ref=e103]:
+              - text: دیدگاه
+              - generic [ref=e104]: "*"
+            - textbox "دیدگاه *" [ref=e105]
+          - paragraph [ref=e106]:
+            - generic [ref=e107]:
+              - text: نام
+              - generic [ref=e108]: "*"
+            - textbox "نام *" [ref=e109]
+          - paragraph [ref=e110]:
+            - generic [ref=e111]:
+              - text: ایمیل
+              - generic [ref=e112]: "*"
+            - textbox "ایمیل *" [ref=e113]
+          - paragraph [ref=e114]:
+            - generic [ref=e115]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e116]
+          - paragraph [ref=e117]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e118]
+            - generic [ref=e119]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e120]:
+            - button "فرستادن دیدگاه" [ref=e121] [cursor=pointer]
+  - contentinfo [ref=e122]:
+    - generic [ref=e124]:
+      - generic [ref=e125]:
+        - heading "هوش نوین" [level=2] [ref=e126]
+        - list [ref=e127]:
+          - listitem [ref=e128]:
+            - link "خانه" [ref=e129] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e130]:
+            - link "درباره هوش نوین" [ref=e131] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e132]:
+            - link "خدمات هوش نوین" [ref=e133] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e134]:
+            - link "مقالات هوش نوین" [ref=e135] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e136]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e137] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e138]:
+        - heading "تماس با ما" [level=2] [ref=e139]
+        - generic [ref=e140]:
+          - figure [ref=e141]
+          - paragraph [ref=e142]: novinaihub@gmail.com
+        - generic [ref=e143]:
+          - figure [ref=e144]
+          - paragraph [ref=e145]: "09386877087"
+        - list [ref=e146]:
+          - listitem [ref=e147]:
+            - link "Facebook" [ref=e148] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e149] [cursor=pointer]
+              - generic [ref=e151] [cursor=pointer]: Facebook
+          - listitem [ref=e152]:
+            - link "Instagram" [ref=e153] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e154] [cursor=pointer]
+              - generic [ref=e156] [cursor=pointer]: Instagram
+          - listitem [ref=e157]:
+            - link "LinkedIn" [ref=e158] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e159] [cursor=pointer]
+              - generic [ref=e161] [cursor=pointer]: LinkedIn
+          - listitem [ref=e162]:
+            - link "YouTube" [ref=e163] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e164] [cursor=pointer]
+              - generic [ref=e166] [cursor=pointer]: YouTube
+    - generic [ref=e168]:
+      - generic [ref=e169]:
+        - paragraph [ref=e170]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e171]:
+          - list [ref=e176]:
+            - listitem [ref=e177]:
+              - link "صفحه اصلی" [ref=e178] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e179] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e180]:
+              - link "درباره ما" [ref=e181] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e182] [cursor=pointer]: درباره ما
+            - listitem [ref=e183]:
+              - link "خدمات هوش نوین" [ref=e184] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e185] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e186]:
+              - link "آخرین اخبار" [ref=e187] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e188] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e189]:
+              - link "مقالات" [ref=e190] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e191] [cursor=pointer]: مقالات
+      - paragraph: 
+```

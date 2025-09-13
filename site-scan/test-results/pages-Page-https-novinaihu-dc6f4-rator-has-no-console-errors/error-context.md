@@ -1,0 +1,315 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - paragraph [ref=e9]:
+        - link "هوش نوین" [ref=e10] [cursor=pointer]:
+          - /url: https://novinaihub.ir
+      - generic [ref=e12]:
+        - navigation "فهرست سربرگ" [ref=e13]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "صفحه اصلی" [ref=e20] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e21] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e22]:
+              - link "درباره ما" [ref=e23] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e24] [cursor=pointer]: درباره ما
+            - listitem [ref=e25]:
+              - link "خدمات هوش نوین" [ref=e26] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e27] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e28]:
+              - link "آخرین اخبار" [ref=e29] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e30] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e31]:
+              - link "مقالات" [ref=e32] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e33] [cursor=pointer]: مقالات
+        - list [ref=e34]:
+          - listitem [ref=e35]:
+            - link "LinkedIn" [ref=e36] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/novinaihub
+              - img [ref=e37] [cursor=pointer]
+              - generic [ref=e39] [cursor=pointer]: LinkedIn
+          - listitem [ref=e40]:
+            - link "Telegram" [ref=e41] [cursor=pointer]:
+              - /url: https://t.me/novinaihub
+              - img [ref=e42] [cursor=pointer]
+              - generic [ref=e44] [cursor=pointer]: Telegram
+          - listitem [ref=e45]:
+            - link "X" [ref=e46] [cursor=pointer]:
+              - /url: https://x.com/novin_aiHub
+              - img [ref=e47] [cursor=pointer]
+              - generic [ref=e49] [cursor=pointer]: X
+  - generic [ref=e50]:
+    - img "AI News Cover" [ref=e51]
+    - heading "بهترین هوش مصنوعی تولید عکس" [level=2] [ref=e54]
+  - main [ref=e55]:
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - figure [ref=e59]:
+          - img "copertina 634" [ref=e60]
+        - generic [ref=e61]:
+          - 'heading "بهترین هوش مصنوعی تولید عکس: لیست هوش مصنوعی برای تولید عکس" [level=3] [ref=e62]':
+            - strong [ref=e63]:
+              - text: بهترین
+              - link "هوش مصنوعی تولید عکس" [ref=e64] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/2025/06/05/ai-image-generation-tools/
+              - text: ": لیست هوش مصنوعی برای تولید عکس"
+          - paragraph [ref=e65]:
+            - text: در دنیای امروز،
+            - generic [ref=e66]: هوش مصنوعی
+            - text: به یکی از قدرتمندترین ابزارهای خلاقیت تبدیل شده است. یکی از جذاب‌ترین کاربردهای آن، تولید تصاویر خیره‌کننده با کمک الگوریتم‌های پیشرفته است. اگر به دنبال
+            - generic [ref=e67]: بهترین هوش مصنوعی تولید عکس
+            - text: هستید، این مقاله راهنمای کاملی برای شماست. ما در اینجا لیستی از برترین ابزارهای
+            - generic [ref=e68]: هوش مصنوعی تولید عکس
+            - text: را معرفی می‌کنیم و ویژگی‌های هر یک را بررسی خواهیم کرد.
+          - paragraph [ref=e69]:
+            - text: این مقاله به شما کمک می‌کند تا با توجه به نیازهای خود، بهترین گزینه را انتخاب کنید. از ابزارهای رایگان تا پلتفرم‌های حرفه‌ای، همه را پوشش داده‌ایم. پس اگر می‌خواهید بدانید کدام
+            - generic [ref=e70]: هوش مصنوعی
+            - text: می‌تواند تصاویر منحصر به فردی برای شما خلق کند، تا پایان این مطلب با ما همراه باشید.
+          - heading "معرفی بهترین هوش مصنوعی تولید عکس" [level=3] [ref=e71]:
+            - strong [ref=e72]: معرفی بهترین هوش مصنوعی تولید عکس
+          - heading "🔹۱.ChatGPT با مدل GPT-4o" [level=4] [ref=e73]
+          - paragraph [ref=e74]:
+            - generic [ref=e75]: OpenAI قابلیت تولید تصویر را در نسخه رایگان ChatGPT فعال کرده است.
+            - generic [ref=e76]: کاربران می‌توانند روزانه تا ۳ تصویر با کیفیت بالا ایجاد کنند.
+            - generic [ref=e77]: این ابزار به‌ویژه برای ساخت تصاویر در سبک‌های خاص مانند انیمه یا Studio Ghibli محبوبیت یافته است.
+            - link "The Verge" [ref=e80] [cursor=pointer]:
+              - /url: https://www.theverge.com/news/640359/chat-gpt-4o-image-generator-ghibli-free-users?utm_source=chatgpt.com
+              - generic [ref=e83] [cursor=pointer]: The Verge
+          - separator [ref=e84]
+          - heading "🔹 ۲. Craiyon (DALL·E Mini)" [level=4] [ref=e85]
+          - paragraph [ref=e86]:
+            - generic [ref=e87]: Craiyon یکی از بهترین هوش مصنوعی تولید عکس از متن است.
+            - generic [ref=e88]: با وارد کردن توضیح متنی، مجموعه‌ای از تصاویر مرتبط دریافت می‌کنید.
+            - generic [ref=e89]: این ابزار برای ایده‌پردازی اولیه و آزمایش مناسب است.
+          - separator [ref=e90]
+          - heading "🔹 ۳. DeepAI" [level=4] [ref=e91]
+          - paragraph [ref=e92]:
+            - generic [ref=e93]: DeepAI یک مدل هوش مصنوعی چندمنظوره است که بدون نیاز به ثبت‌نام، تصاویر را در بیش از ۱۰۰ سبک مختلف تولید می‌کند.
+            - generic [ref=e94]: همچنین امکان ویرایش تصویر قبل از دانلود وجود دارد.
+          - separator [ref=e95]
+          - heading "🔹 ۴. Freepik AI" [level=4] [ref=e96]
+          - paragraph [ref=e97]:
+            - generic [ref=e98]: Freepik روزانه تا ۴۰ تصویر رایگان بدون واترمارک ارائه می‌دهد.
+            - generic [ref=e99]: این ابزار گزینه‌های متنوعی برای انتخاب سبک، نورپردازی و قاب‌بندی دارد.
+            - link "Freepik" [ref=e102] [cursor=pointer]:
+              - /url: https://www.freepik.com/ai/image-generator?utm_source=chatgpt.com
+              - generic [ref=e105] [cursor=pointer]: Freepik
+          - separator [ref=e106]
+          - heading "🔹 ۵. Canva AI" [level=4] [ref=e107]
+          - paragraph [ref=e108]:
+            - generic [ref=e109]: Canva امکان تولید تصاویر با استفاده از مدل‌های DALL·E و Imagen را فراهم کرده است.
+            - generic [ref=e110]: کاربران می‌توانند ۵۰ تصویر اول را رایگان تولید کنند.
+            - generic [ref=e111]: این ابزار برای طراحی گرافیکی و استفاده در شبکه‌های اجتماعی مناسب است.
+          - separator [ref=e112]
+          - heading "🔹 ۶. Adobe Firefly" [level=4] [ref=e113]
+          - paragraph [ref=e114]:
+            - generic [ref=e115]: Adobe Firefly ابزار قدرتمند هوش مصنوعی تولید عکس با کیفیت بالا است.
+            - generic [ref=e116]: مدل‌های جدید این ابزار، مانند Firefly Image Model 4، تصاویر واقع‌گرایانه با رزولوشن تا ۲K تولید می‌کنند.
+            - generic [ref=e117]: همچنین، قابلیت‌های ویرایش پیشرفته و تولید ویدیو نیز در دسترس هستند.
+          - separator [ref=e118]
+          - heading "🔹 ۷. Pixlr" [level=4] [ref=e119]
+          - paragraph [ref=e120]:
+            - generic [ref=e121]: Pixlr ترکیبی از ابزارهای ویرایش تصویر و تولید تصویر با هوش مصنوعی است.
+            - generic [ref=e122]: این پلتفرم برای ویرایش حرفه‌ای عکس‌ها و تولید تصاویر واقع‌گرایانه به‌صورت رایگان مناسب است.
+          - separator [ref=e123]
+          - heading "🔹 ۸. Artimator" [level=4] [ref=e124]
+          - paragraph [ref=e125]:
+            - generic [ref=e126]: Artimator یک ابزار رایگان برای تبدیل متن به تصویر در ۲۶ سبک مختلف است.
+            - generic [ref=e127]: برخی از سبک‌ها رایگان و برخی دیگر پولی هستند.
+            - generic [ref=e128]: تصاویر تولید شده دارای رزولوشن بالا و مناسب برای چاپ هستند.
+          - separator [ref=e129]
+          - heading "🔹 ۹. Recraft" [level=4] [ref=e130]
+          - paragraph [ref=e131]:
+            - generic [ref=e132]: Recraft امکان تولید تصاویر وکتور قابل ویرایش از متن را فراهم می‌کند.
+            - generic [ref=e133]: این ابزار برای طراحان گرافیک و برندها مناسب است و به‌صورت کاملاً رایگان در دسترس است.
+            - link "Recraft" [ref=e136] [cursor=pointer]:
+              - /url: https://www.recraft.ai/ai-image-generator?utm_source=chatgpt.com
+              - generic [ref=e139] [cursor=pointer]: Recraft
+          - separator [ref=e140]
+          - heading "🔹 ۱۰. Artbreeder" [level=4] [ref=e141]
+          - paragraph [ref=e142]:
+            - generic [ref=e143]: Artbreeder به کاربران امکان می‌دهد تصاویر را با استفاده از اسلایدرها ویرایش کرده و تصاویر جدیدی ایجاد کنند.
+            - generic [ref=e144]: این ابزار برای تولید چهره‌ها، مناظر و نقاشی‌ها مناسب است
+          - heading "۲. مقایسه هوش مصنوعی‌های تولید عکس" [level=3] [ref=e145]
+          - paragraph [ref=e146]:
+            - text: برای انتخاب
+            - generic [ref=e147]: بهترین هوش مصنوعی تولید عکس
+            - text: "، باید معیارهای مختلفی را در نظر بگیرید. در این بخش، ابزارهای معرفی‌شده را از جنبه‌های زیر مقایسه می‌کنیم:"
+          - list [ref=e148]:
+            - listitem [ref=e149]:
+              - generic [ref=e150]: "کیفیت تصاویر:"
+              - text: دقت و وضوح تصاویر تولیدشده
+            - listitem [ref=e151]:
+              - generic [ref=e152]: "سهولت استفاده:"
+              - text: رابط کاربری و نحوه تعامل با ابزار
+            - listitem [ref=e153]:
+              - generic [ref=e154]: "هزینه:"
+              - text: قیمت‌گذاری و مدل‌های اشتراک
+          - paragraph [ref=e155]:
+            - text: به عنوان مثال،
+            - generic [ref=e156]: DALL-E 3
+            - text: برای تولید تصاویر واقع‌گرایانه عالی است، در حالی که
+            - generic [ref=e157]: MidJourney
+            - text: برای آثار هنری انتزاعی مناسب‌تر است.
+          - heading "۳. کاربردهای هوش مصنوعی تولید عکس" [level=3] [ref=e158]
+          - paragraph [ref=e159]:
+            - text: ابزارهای
+            - generic [ref=e160]: هوش مصنوعی برای تولید عکس
+            - text: "تنها محدود به سرگرمی نیستند. آن‌ها در صنایع مختلف کاربردهای گسترده‌ای دارند، از جمله:"
+          - list [ref=e161]:
+            - listitem [ref=e162]:
+              - generic [ref=e163]: "تبلیغات و بازاریابی:"
+              - text: ایجاد تصاویر جذاب برای کمپین‌ها
+            - listitem [ref=e164]:
+              - generic [ref=e165]: "طراحی بازی‌ها:"
+              - text: خلق محیط‌ها و کاراکترهای منحصر به فرد
+            - listitem [ref=e166]:
+              - generic [ref=e167]: "آموزش و پژوهش:"
+              - text: تولید تصاویر برای مطالعات علمی
+          - paragraph [ref=e168]: این فناوری روز به روز در حال پیشرفت است و کاربردهای جدیدی برای آن کشف می‌شود.
+          - heading "۴. آینده هوش مصنوعی در تولید تصاویر" [level=3] [ref=e169]
+          - paragraph [ref=e170]:
+            - text: رشد
+            - generic [ref=e171]: هوش مصنوعی تولید عکس
+            - text: نشان‌دهنده آینده‌ای روشن برای این فناوری است. با بهبود الگوریتم‌ها، شاهد تصاویری با کیفیت بالاتر و کنترل بیشتر خواهیم بود.
+          - paragraph [ref=e172]: پیش‌بینی می‌شود که در آینده نزدیک، این ابزارها بتوانند حتی ویدیوها و انیمیشن‌های واقع‌گرایانه نیز تولید کنند. این تحول می‌تواند انقلابی در صنایع خلاقیت و رسانه ایجاد کند.
+          - 'heading "نتیجه‌گیری: انتخاب بهترین هوش مصنوعی تولید عکس" [level=3] [ref=e173]'
+          - paragraph [ref=e174]:
+            - text: در این مقاله، لیستی از
+            - generic [ref=e175]: بهترین هوش مصنوعی تولید عکس
+            - text: را بررسی کردیم. از
+            - generic [ref=e176]: DALL-E 3
+            - text: گرفته تا
+            - generic [ref=e177]: MidJourney
+            - text: ، هر کدام مزایا و معایب خاص خود را دارند. انتخاب بهترین گزینه به نیازها و انتظارات شما بستگی دارد.
+          - paragraph [ref=e178]:
+            - text: اگر به دنبال تصاویر واقع‌گرایانه هستید،
+            - generic [ref=e179]: DALL-E 3
+            - text: می‌تواند انتخاب مناسبی باشد. اما اگر علاقه‌مند به آثار هنری و فانتزی هستید،
+            - generic [ref=e180]: MidJourney
+            - text: گزینه بهتری است. در نهایت، پیشرفت روزافزون
+            - generic [ref=e181]: هوش مصنوعی برای تولید عکس
+            - text: نشان می‌دهد که این فناوری به زودی بخش جدایی‌ناپذیر از زندگی روزمره ما خواهد شد.
+          - paragraph [ref=e182]: امیدواریم این مقاله به شما کمک کند تا بهترین ابزار را برای پروژه‌های خود انتخاب کنید. فراموش نکنید که این فناوری به سرعت در حال تحول است، بنابراین همیشه به دنبال به‌روزرسانی‌ها و ابزارهای جدید باشید.
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - strong [ref=e185]: AI Categories
+            - text: ":"
+          - link "مقالات" [ref=e186] [cursor=pointer]:
+            - /url: https://novinaihub.ir/index.php/category/articles/
+      - generic [ref=e188]:
+        - heading "دیدگاهتان را بنویسید" [level=3] [ref=e189]: دیدگاهتان را بنویسید
+        - generic [ref=e190]:
+          - paragraph [ref=e191]:
+            - generic [ref=e192]: نشانی ایمیل شما منتشر نخواهد شد.
+            - generic [ref=e193]:
+              - text: بخش‌های موردنیاز علامت‌گذاری شده‌اند
+              - generic [ref=e194]: "*"
+          - paragraph [ref=e195]:
+            - generic [ref=e196]:
+              - text: دیدگاه
+              - generic [ref=e197]: "*"
+            - textbox "دیدگاه *" [ref=e198]
+          - paragraph [ref=e199]:
+            - generic [ref=e200]:
+              - text: نام
+              - generic [ref=e201]: "*"
+            - textbox "نام *" [ref=e202]
+          - paragraph [ref=e203]:
+            - generic [ref=e204]:
+              - text: ایمیل
+              - generic [ref=e205]: "*"
+            - textbox "ایمیل *" [ref=e206]
+          - paragraph [ref=e207]:
+            - generic [ref=e208]: وب‌ سایت
+            - textbox "وب‌ سایت" [ref=e209]
+          - paragraph [ref=e210]:
+            - checkbox "ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم." [ref=e211]
+            - generic [ref=e212]: ذخیره نام، ایمیل و وبسایت من در مرورگر برای زمانی که دوباره دیدگاهی می‌نویسم.
+          - paragraph [ref=e213]:
+            - button "فرستادن دیدگاه" [ref=e214] [cursor=pointer]
+  - contentinfo [ref=e215]:
+    - generic [ref=e217]:
+      - generic [ref=e218]:
+        - heading "هوش نوین" [level=2] [ref=e219]
+        - list [ref=e220]:
+          - listitem [ref=e221]:
+            - link "خانه" [ref=e222] [cursor=pointer]:
+              - /url: https://novinaihub.ir/
+          - listitem [ref=e223]:
+            - link "درباره هوش نوین" [ref=e224] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/aboutus/
+          - listitem [ref=e225]:
+            - link "خدمات هوش نوین" [ref=e226] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/services/
+            - text: ات ما
+          - listitem [ref=e227]:
+            - link "مقالات هوش نوین" [ref=e228] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/ai-article/
+          - listitem [ref=e229]:
+            - link "جدیدترین اخبار هوش مصنوعی" [ref=e230] [cursor=pointer]:
+              - /url: https://novinaihub.ir/index.php/news/
+      - generic [ref=e231]:
+        - heading "تماس با ما" [level=2] [ref=e232]
+        - generic [ref=e233]:
+          - figure [ref=e234]
+          - paragraph [ref=e235]: novinaihub@gmail.com
+        - generic [ref=e236]:
+          - figure [ref=e237]
+          - paragraph [ref=e238]: "09386877087"
+        - list [ref=e239]:
+          - listitem [ref=e240]:
+            - link "Facebook" [ref=e241] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e242] [cursor=pointer]
+              - generic [ref=e244] [cursor=pointer]: Facebook
+          - listitem [ref=e245]:
+            - link "Instagram" [ref=e246] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e247] [cursor=pointer]
+              - generic [ref=e249] [cursor=pointer]: Instagram
+          - listitem [ref=e250]:
+            - link "LinkedIn" [ref=e251] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e252] [cursor=pointer]
+              - generic [ref=e254] [cursor=pointer]: LinkedIn
+          - listitem [ref=e255]:
+            - link "YouTube" [ref=e256] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e257] [cursor=pointer]
+              - generic [ref=e259] [cursor=pointer]: YouTube
+    - generic [ref=e261]:
+      - generic [ref=e262]:
+        - paragraph [ref=e263]: طراحی شده توسط NovinAiHub
+        - navigation "فهرست سربرگ 2" [ref=e264]:
+          - list [ref=e269]:
+            - listitem [ref=e270]:
+              - link "صفحه اصلی" [ref=e271] [cursor=pointer]:
+                - /url: http://novinaihub.ir
+                - generic [ref=e272] [cursor=pointer]: صفحه اصلی
+            - listitem [ref=e273]:
+              - link "درباره ما" [ref=e274] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/aboutus/
+                - generic [ref=e275] [cursor=pointer]: درباره ما
+            - listitem [ref=e276]:
+              - link "خدمات هوش نوین" [ref=e277] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/services/
+                - generic [ref=e278] [cursor=pointer]: خدمات هوش نوین
+            - listitem [ref=e279]:
+              - link "آخرین اخبار" [ref=e280] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/news/
+                - generic [ref=e281] [cursor=pointer]: آخرین اخبار
+            - listitem [ref=e282]:
+              - link "مقالات" [ref=e283] [cursor=pointer]:
+                - /url: https://novinaihub.ir/index.php/ai-article/
+                - generic [ref=e284] [cursor=pointer]: مقالات
+      - paragraph: 
+```
